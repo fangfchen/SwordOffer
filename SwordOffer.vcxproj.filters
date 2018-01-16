@@ -29,16 +29,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test_sizeof.cpp">
+    <ClCompile Include="Myoffer5_String_ReplaceSpace.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="Myoffer3_01_Array_Duplication.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="myoffer3_01_array_duplication.cpp">
+    <ClCompile Include="Myoffer4_Array_FindInPartiallySortedMatrix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="myoffer4_array_FindInPartiallySortedMatrix.cpp">
+    <ClCompile Include="Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
