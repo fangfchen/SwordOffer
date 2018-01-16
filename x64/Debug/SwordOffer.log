@@ -1,6 +1,3 @@
-﻿  test.cpp
-  myoffer3_01_array_duplication.cpp
-f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(173): error C3867: “solution3::duplicate2”: 非标准语法；请使用 "&" 来创建指向成员的指针
-f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(173): error C2440: “=”: 无法从“bool (__cdecl solution3::* )(int [],int,int *)”转换为“bool (__cdecl *)(int *,int,int *)”
-  f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(173): note: 没有使该转换得以执行的上下文
-  正在生成代码...
+﻿  Test.cpp
+  SwordOffer.vcxproj -> F:\CODE\SwordOffer\x64\Debug\SwordOffer.exe
+  SwordOffer.vcxproj -> F:\CODE\SwordOffer\x64\Debug\SwordOffer.pdb (Partial PDB)
