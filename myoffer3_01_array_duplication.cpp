@@ -30,8 +30,7 @@ public:
 		/***--------------------------------------------------------------
 		思路1(不改变原数组，利用哈希表)：时间复杂度O(n)，空间复杂度O(n)
 		建立哈希表，遍历数组中的元素，对每个元素，如果它不在哈希表中，就加进去，如果它在哈希表中，说明已经重复出现了，则它就是答案。
-		这里的哈希表可以直接用一个长度为n的数组来模拟，初始值为0（或false），假如当前遍历到的数是k，则看数组下标为k的位置是否为1（或true），
-		如果不是则令其为k的位置是否为1（或true），如果是则说明已经重复。
+		这里的哈希表可以直接用一个长度为n的数组来模拟，初始值为0（或false），假如当前遍历到的数是k，则看数组下标为k的位置是否为1（或true），如果不是则令其为k的位置是否为1（或true），如果是则说明已经重复。
 		注：这里找到的第一个数为第一个重复的数！
 		--------------------------------------------------------------***/
 		if (numbers == nullptr || length <= 0) {  //若数组为空指针或长度<=0，则无效
@@ -63,8 +62,7 @@ public:
 		/***--------------------------------------------------------------
 		思路2（对原数组重排）：时间复杂度O(n)，空间复杂度O(1)
 		因为数组长度为n，每个数都在0~n-1范围内，所以如果数组中没有重复，那么数组排序后数字i应该出现在下标i的位置。
-		现在重排数组，从头到尾依次扫描，扫描到数字i的时候就看它的下标是否为i，如果是说明他在正确的位置上；
-		如果不是，则再看下标为i的位置是否已经有数i，如果是，说明i已经有重复；如果不是，则交换i和下标为i的数。
+		现在重排数组，从头到尾依次扫描，扫描到数字i的时候就看它的下标是否为i，如果是说明他在正确的位置上；如果不是，则再看下标为i的位置是否已经有数i，如果是，说明i已经有重复；如果不是，则交换i和下标为i的数。
 		注：这里找到的不一定是第一个重复的数！
 		--------------------------------------------------------------***/
 		if (numbers == nullptr || length <= 0) {  //若数组为空指针或长度<=0，则无效
@@ -95,19 +93,12 @@ public:
 	//======================test==========================
 
 	//1个重复
-	void test1(int funclabel) {
+	void test1(bool(*func)(int numbers[], int length, int* duplication)) {
 		printf("test1:\n");
 		int numbers[] = { 1,5,4,3,8,6,0,7,5 }; 
 		int length = 9;
 		int dupli = 0;
-		bool result = false;
-		if (funclabel == 1) {
-			result = duplicate1(numbers, length, &dupli);
-		}
-		else {
-			result = duplicate2(numbers, length, &dupli);
-		}
-		if (result == true) {
+		if (func(numbers, length, &dupli) == true) {  
 			cout << dupli << endl;
 		}
 		else {
@@ -117,19 +108,12 @@ public:
 	}
 
 	//多个重复
-	void test2(int funclabel) {
+	void test2(bool(*func)(int numbers[], int length, int* duplication)) {
 		printf("test2:\n");
 		int numbers[] = {0, 1, 5, 1, 4, 5 };
 		int length = 6;
 		int dupli = 0;
-		bool result = false;
-		if (funclabel == 1) {
-			result = duplicate1(numbers, length, &dupli);
-		}
-		else {
-			result = duplicate2(numbers, length, &dupli);
-		}
-		if (result == true) {
+		if (func(numbers, length, &dupli) == true) {
 			cout << dupli << endl;
 		}
 		else {
@@ -139,19 +123,12 @@ public:
 	}
 
 	//无重复
-	void test3(int funclabel) {
+	void test3(bool(*func)(int numbers[], int length, int* duplication)) {
 		printf("test3:\n");
 		int numbers[] = { 0, 1, 3, 2, 5, 4 };
 		int length = 6;
 		int dupli = 0;
-		bool result = false;
-		if (funclabel == 1) {
-			result = duplicate1(numbers, length, &dupli);
-		}
-		else {
-			result = duplicate2(numbers, length, &dupli);
-		}
-		if (result == true) {
+		if (func(numbers, length, &dupli) == true) {
 			cout << dupli << endl;
 		}
 		else {
@@ -161,19 +138,12 @@ public:
 	}
 
 	//空数组
-	void test4(int funclabel) {
+	void test4(bool(*func)(int numbers[], int length, int* duplication)) {
 		printf("test4:\n");
 		int* numbers = nullptr;
 		int length = 0;
 		int dupli = 0;
-		bool result = false;
-		if (funclabel == 1) {
-			result = duplicate1(numbers, length, &dupli);
-		}
-		else {
-			result = duplicate2(numbers, length, &dupli);
-		}
-		if (result == true) {
+		if (func(numbers, length, &dupli) == true) {
 			cout << dupli << endl;
 		}
 		else {
@@ -183,19 +153,12 @@ public:
 	}
 
 	//范围越界
-	void test5(int funclabel) {
+	void test5(bool(*func)(int numbers[], int length, int* duplication)) {
 		printf("test5:\n");
 		int numbers[] = {2,8,3,4,2,0};
 		int length = 6;
 		int dupli = 0;
-		bool result = false;
-		if (funclabel == 1) {
-			result = duplicate1(numbers, length, &dupli);
-		}
-		else {
-			result = duplicate2(numbers, length, &dupli);
-		}
-		if (result == true) {
+		if (func(numbers, length, &dupli) == true) {
 			cout << dupli << endl;
 		}
 		else {
@@ -206,19 +169,19 @@ public:
 
 
 	void run() {
-		//bool(*func)(int* , int, int* ); //定义函数指针func，它所指向的函数带有3个参数并且返回bool
-		int funclabel = 1;
-		test1(funclabel);
-		test2(funclabel);
-		test3(funclabel);
-		test4(funclabel);
-		test5(funclabel);
+		bool(*func)(int* , int, int* ); //定义函数指针func，它所指向的函数带有3个参数并且返回bool
+		func = duplicate2;
+		test1(func);
+		test2(func);
+		test3(func);
+		test4(func);
+		test5(func);
 	}
 };
 
 
 
-//int main() {
-//	solution3 s;
-//	s.run();
-//}
+int main() {
+	solution3 s;
+	s.run();
+}
