@@ -151,9 +151,11 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="List.h" />
     <ClCompile Include="Myoffer3_01_Array_Duplication.cpp" />
     <ClCompile Include="Myoffer4_Array_FindInPartiallySortedMatrix.cpp" />
     <ClCompile Include="Myoffer5_String_ReplaceSpace.cpp" />
+    <ClCompile Include="Myoffer6_List_PrintListInReversedOrder.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

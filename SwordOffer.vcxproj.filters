@@ -41,5 +41,11 @@
     <ClCompile Include="Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Myoffer6_List_PrintListInReversedOrder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="List.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
