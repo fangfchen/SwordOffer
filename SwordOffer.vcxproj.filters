@@ -24,6 +24,9 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -44,7 +47,7 @@
     <ClCompile Include="Myoffer6_List_PrintListInReversedOrder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="List.h">
+    <ClCompile Include="List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
