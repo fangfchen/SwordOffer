@@ -5,17 +5,17 @@ using namespace std;
 
 
 
-//´´½¨½Úµã
+//åˆ›å»ºèŠ‚ç‚¹
 ListNode* CreateListNode(int value) {
 	ListNode* pNode = new ListNode();
 	pNode->val = value;
-	pNode->next = nullptr;  //Ä¬ÈÏnextÎª¿Õ
+	pNode->next = nullptr;  //é»˜è®¤nextä¸ºç©º
 	return pNode;
 }
-
-//Á¬½Ó2¸ö½Úµã
+ 
+//è¿æ¥2ä¸ªèŠ‚ç‚¹
 void ConnectListNodes(ListNode* pCurrent, ListNode* pNext) {
-	if (pCurrent == nullptr) {  //Èç¹ûµ±Ç°½ÚµãÖ¸ÕëÎª¿Õ£¬Ôò±¨´íÍË³ö
+	if (pCurrent == nullptr) {  //å¦‚æœå½“å‰èŠ‚ç‚¹æŒ‡é’ˆä¸ºç©ºï¼Œåˆ™æŠ¥é”™é€€å‡º
 		printf("Error to connect 2 nodes.\n");
 	}
 	else {
@@ -23,7 +23,7 @@ void ConnectListNodes(ListNode* pCurrent, ListNode* pNext) {
 	}
 }
 
-//´òÓ¡Á´±í
+//æ‰“å°é“¾è¡¨
 void PrintList(ListNode* pHead) {
 	//printf("PrintList starts.\n");
 	ListNode* pNode = pHead;
@@ -35,7 +35,7 @@ void PrintList(ListNode* pHead) {
 	//printf("PrintList ends.\n");
 }
 
-//Îö¹¹Á´±í£¨É¾³ıËùÓĞ½Úµã£©
+//ææ„é“¾è¡¨ï¼ˆåˆ é™¤æ‰€æœ‰èŠ‚ç‚¹ï¼‰
 void DestroyList(ListNode* pHead) {
 	ListNode* pNode = pHead;
 	ListNode* pNext;
@@ -46,33 +46,33 @@ void DestroyList(ListNode* pHead) {
 	}
 }
 
-//ÔÚÁ´±íÄ©Î²Ìí¼ÓÒ»¸ö½Úµã£¨ÀàËÆpush_back(value)£©
+//åœ¨é“¾è¡¨æœ«å°¾æ·»åŠ ä¸€ä¸ªèŠ‚ç‚¹ï¼ˆç±»ä¼¼push_back(value)ï¼‰
 void PushBackNode(ListNode** ppHead, int value) {
-	//ĞÂ½¨½Úµã
+	//æ–°å»ºèŠ‚ç‚¹
 	ListNode* pNew = new ListNode();
 	pNew->val = value;
 	pNew->next = nullptr;
-	//ÅĞ¶ÏÊÇ·ñÎª¿ÕÁ´±í(±íÍ·Îª¿Õ)
+	//åˆ¤æ–­æ˜¯å¦ä¸ºç©ºé“¾è¡¨(è¡¨å¤´ä¸ºç©º)
 	if (*ppHead == nullptr) {  
-		*ppHead = pNew;  //ÈôÎª¿Õ£¬±íÍ·Ö¸ÏòĞÂ½Úµã
+		*ppHead = pNew;  //è‹¥ä¸ºç©ºï¼Œè¡¨å¤´æŒ‡å‘æ–°èŠ‚ç‚¹
 	}
 	else {
 		ListNode* pNode = *ppHead;
 		while (pNode->next != nullptr) {  
 			pNode = pNode->next;
 		}
-		pNode->next = pNew;  //ÈÃÄ©Î²½ÚµãÖ¸ÏòĞÂ½Úµã
+		pNode->next = pNew;  //è®©æœ«å°¾èŠ‚ç‚¹æŒ‡å‘æ–°èŠ‚ç‚¹
 	}
 }
 
-//ÔÚÁ´±íÖĞÕÒµ½ÖµÎªvalueµÄ½Úµã²¢É¾³ı(ÀàËÆremove(value))
+//åœ¨é“¾è¡¨ä¸­æ‰¾åˆ°å€¼ä¸ºvalueçš„èŠ‚ç‚¹å¹¶åˆ é™¤(ç±»ä¼¼remove(value))
 void RemoveNode(ListNode** ppHead, int value) {
-	//¿ÕÁ´±í£¨±íÍ·Îª¿Õ£©
+	//ç©ºé“¾è¡¨ï¼ˆè¡¨å¤´ä¸ºç©ºï¼‰
 	if (ppHead == nullptr || *ppHead == nullptr) {
 		cout << "The List is empty.\n";
 		return;
 	}
-	//±íÍ·Ö¸ÏòµÄµÚÒ»¸ö½Úµã¾ÍÊÇÒªÉ¾³ıµÄµã£¨Ğè¸Ä±ä±íÍ·£©
+	//è¡¨å¤´æŒ‡å‘çš„ç¬¬ä¸€ä¸ªèŠ‚ç‚¹å°±æ˜¯è¦åˆ é™¤çš„ç‚¹ï¼ˆéœ€æ”¹å˜è¡¨å¤´ï¼‰
 	ListNode* pDeleteNode = nullptr;
 	if ((*ppHead)->val == value) {
 		pDeleteNode = *ppHead;
@@ -88,7 +88,7 @@ void RemoveNode(ListNode** ppHead, int value) {
 			pNode = pNode->next;
 		}
 	}
-	//É¾³ı½Úµã
+	//åˆ é™¤èŠ‚ç‚¹
 	if (pDeleteNode != nullptr) {
 		delete pDeleteNode;
 		pDeleteNode = nullptr;

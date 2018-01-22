@@ -5,19 +5,19 @@
 #include"List.h"
 using namespace std;
 //==================================================================
-// ¡¶½£Ö¸Offer¡ª¡ªÃûÆóÃæÊÔ¹Ù¾«½²µäĞÍ±à³ÌÌâ¡·´úÂë
-// ÃæÊÔÌâ5£ºÌæ»»¿Õ¸ñ
-// ÌâÄ¿£ºÇëÊµÏÖÒ»¸öº¯Êı£¬°Ñ×Ö·û´®ÖĞµÄÃ¿¸ö¿Õ¸ñÌæ»»³É"%20"¡£ÀıÈçÊäÈë¡°We are happy.¡±£¬
-// ÔòÊä³ö¡°We%20are%20happy.¡±¡£
+// ã€Šå‰‘æŒ‡Offerâ€”â€”åä¼é¢è¯•å®˜ç²¾è®²å…¸å‹ç¼–ç¨‹é¢˜ã€‹ä»£ç 
+// é¢è¯•é¢˜5ï¼šæ›¿æ¢ç©ºæ ¼
+// é¢˜ç›®ï¼šè¯·å®ç°ä¸€ä¸ªå‡½æ•°ï¼ŒæŠŠå­—ç¬¦ä¸²ä¸­çš„æ¯ä¸ªç©ºæ ¼æ›¿æ¢æˆ"%20"ã€‚ä¾‹å¦‚è¾“å…¥â€œWe are happy.â€ï¼Œ
+// åˆ™è¾“å‡ºâ€œWe%20are%20happy.â€ã€‚
 //==================================================================
 
-// ²ÎÊı:
-//         head:    ±íÍ·
-// ·µ»ØÖµ: 
-//         vector<int>: °ÑÁ´±í°´´ÓÎ²µ½Í·µÄË³ĞòÅÅÁĞ
+// å‚æ•°:
+//         head:    è¡¨å¤´
+// è¿”å›å€¼: 
+//         vector<int>: æŠŠé“¾è¡¨æŒ‰ä»å°¾åˆ°å¤´çš„é¡ºåºæ’åˆ—
 
  
-//struct ListNode {  //"List.cpp"ÖĞÒÑ¾­¶¨Òå
+//struct ListNode {  //"List.cpp"ä¸­å·²ç»å®šä¹‰
 //    int val;
 //    ListNode *next;
 //	//struct ListNode *next; 
@@ -25,11 +25,11 @@ using namespace std;
 //    //        val(x), next(NULL) {
 //    //}
 //};
-
+ 
 class Solution6 {
 public:
 /***--------------------------------------------------------------
-Ë¼Â·1£ºÀûÓÃ¡°Õ»¡±µÄÏÈ½øºó³öµÄĞÔÖÊ¡£
+æ€è·¯1ï¼šåˆ©ç”¨â€œæ ˆâ€çš„å…ˆè¿›åå‡ºçš„æ€§è´¨ã€‚
 --------------------------------------------------------------***/
 	vector<int> printListFromTailToHead1(ListNode* phead) {
 		vector<int> v;
@@ -38,7 +38,7 @@ public:
 		ListNode* pnode = phead;
 		while (pnode != nullptr) {
 			s.push(pnode->val);
-			pnode = pnode->next; //¼ÇµÃ¼ÌĞøÍùÏÂÖ¸°¡£¡£¡£¨ÀÏÍü¼Ç£¡£¡£©
+			pnode = pnode->next; //è®°å¾—ç»§ç»­å¾€ä¸‹æŒ‡å•Šï¼ï¼ï¼ˆè€å¿˜è®°ï¼ï¼ï¼‰
 		}
 		while (!s.empty()) {
 			v.push_back(s.top());
@@ -48,13 +48,13 @@ public:
 	}
 
 /***--------------------------------------------------------------
-Ë¼Â·2£ºÀûÓÃµİ¹éµÄ¡°Ñ¹Õ»¡±ĞÔÖÊ¡£
+æ€è·¯2ï¼šåˆ©ç”¨é€’å½’çš„â€œå‹æ ˆâ€æ€§è´¨ã€‚
 --------------------------------------------------------------***/
 	void reverse_order_recursive(ListNode* pnode, vector<int>& v) {
 		if (pnode->next != nullptr) {
 			reverse_order_recursive(pnode->next, v);
 		}
-		v.push_back(pnode->val);  //Òª·ÅÔÚifÍâÃæ£¡£¡·ñÔòÄ©Î²ÔªËØ·Å²»½øÈ¥£¡
+		v.push_back(pnode->val);  //è¦æ”¾åœ¨ifå¤–é¢ï¼ï¼å¦åˆ™æœ«å°¾å…ƒç´ æ”¾ä¸è¿›å»ï¼
 	}
 	
 	vector<int> printListFromTailToHead2(ListNode* phead) {
@@ -65,7 +65,7 @@ public:
 	}
 	
 	//============================test===============================
-	//Ğèinclude"List.cpp"ÖĞµÄº¯Êı£¨ÒòÎªList.cppÖĞÒÑ¾­¶¨Òåstuct£¬ÕâÀï²»ÄÜÔÙ¶¨Òå£©
+	//éœ€include"List.cpp"ä¸­çš„å‡½æ•°ï¼ˆå› ä¸ºList.cppä¸­å·²ç»å®šä¹‰stuctï¼Œè¿™é‡Œä¸èƒ½å†å®šä¹‰ï¼‰
 	void Test(ListNode* phead) {
 		vector<int> v = printListFromTailToHead1(phead);
 		for (int i = 0; i < v.size(); i++) {
@@ -77,7 +77,7 @@ public:
 	//1->2->3->4
 	void test1() {
 		printf("Test1:\n");
-		ListNode* pHead = nullptr; //Ò»¶¨Òª³õÊ¼»¯Îª¿ÕÖ¸Õë£¡£¡£¡
+		ListNode* pHead = nullptr; //ä¸€å®šè¦åˆå§‹åŒ–ä¸ºç©ºæŒ‡é’ˆï¼ï¼ï¼
 		PushBackNode(&pHead, 1); 
 		PushBackNode(&pHead, 2);
 		PushBackNode(&pHead, 3);
@@ -88,7 +88,7 @@ public:
 		Test(pHead);
 	}
 
-	//Ö»ÓĞÒ»¸ö½Úµã1
+	//åªæœ‰ä¸€ä¸ªèŠ‚ç‚¹1
 	void test2() {
 		printf("Test2:\n");
 		ListNode* pHead = nullptr;
@@ -99,7 +99,7 @@ public:
 		Test(pHead);
 	}
 
-	//¿ÕÁ´±í
+	//ç©ºé“¾è¡¨
 	void test3() {
 		printf("Test3:\n");
 		ListNode* pHead = nullptr;

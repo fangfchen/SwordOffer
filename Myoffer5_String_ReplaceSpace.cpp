@@ -3,39 +3,39 @@
 using namespace std;
 
 //==================================================================
-// ¡¶½£Ö¸Offer¡ª¡ªÃûÆóÃæÊÔ¹Ù¾«½²µäÐÍ±à³ÌÌâ¡·´úÂë
-// ÃæÊÔÌâ5£ºÌæ»»¿Õ¸ñ
-// ÌâÄ¿£ºÇëÊµÏÖÒ»¸öº¯Êý£¬°Ñ×Ö·û´®ÖÐµÄÃ¿¸ö¿Õ¸ñÌæ»»³É"%20"¡£ÀýÈçÊäÈë¡°We are happy.¡±£¬
-// ÔòÊä³ö¡°We%20are%20happy.¡±¡£
+// ã€Šå‰‘æŒ‡Offerâ€”â€”åä¼é¢è¯•å®˜ç²¾è®²å…¸åž‹ç¼–ç¨‹é¢˜ã€‹ä»£ç 
+// é¢è¯•é¢˜5ï¼šæ›¿æ¢ç©ºæ ¼
+// é¢˜ç›®ï¼šè¯·å®žçŽ°ä¸€ä¸ªå‡½æ•°ï¼ŒæŠŠå­—ç¬¦ä¸²ä¸­çš„æ¯ä¸ªç©ºæ ¼æ›¿æ¢æˆ"%20"ã€‚ä¾‹å¦‚è¾“å…¥â€œWe are happy.â€ï¼Œ
+// åˆ™è¾“å‡ºâ€œWe%20are%20happy.â€ã€‚
 //==================================================================
 
-// ²ÎÊý:
-//         str:     ×Ö·û´®
-//         length:  ×Ö·û´®³¤¶È(ÊéÉÏÓë´ËÂÔÓÐ²îÒì£¬ÊéÉÏÖ¸µÄÊÇ¿ÉÓÃµÄ×ÜÈÝÁ¿)
-// ·µ»ØÖµ: ÎÞ             
+// å‚æ•°:
+//         str:     å­—ç¬¦ä¸²
+//         length:  å­—ç¬¦ä¸²é•¿åº¦(ä¹¦ä¸Šä¸Žæ­¤ç•¥æœ‰å·®å¼‚ï¼Œä¹¦ä¸ŠæŒ‡çš„æ˜¯å¯ç”¨çš„æ€»å®¹é‡)
+// è¿”å›žå€¼: æ—              
 
 /***--------------------------------------------------------------
-Ë¼Â·£ºÊ±¼ä¸´ÔÓ¶ÈO(n)
-ÏÈ±éÀúÒ»±é×Ö·û´®Í³¼Æ¿Õ¸ñµÄÊýÁ¿£¬Ôò¿ÉÒÔËã³ö×Ö·û´®±»Ìæ»»ºóµÄ×Ü³¤¶È=Ô­³¤¶È+2*¿Õ¸ñÊý¡£
-½ÓÏÂÀ´´ÓºóÍùÇ°À´¸´ÖÆ¡¢Ìæ»»×Ö·û´®¡£×¼±¸Á½¸öÖ¸Õëp1ºÍp2£¬p1Ö¸ÏòÔ­×Ö·û´®µÄÄ©Î²£¬p2Ö¸ÏòÌæ»»ºó×Ö·û´®µÄÄ©Î²£¨ÊÂÊµÉÏ¶¼ÔÚÒ»¸ö×Ö·û´®ÖÐ£©¡£
-Èç¹ûp1ÉÏµÄÖµ²»ÊÇ¿Õ¸ñ£¬Ôò¸´ÖÆµ½p2Î»ÖÃÉÏ£»Èç¹ûÊÇ¿Õ¸ñ£¬Ôòp2¼°Ç°Á½Î»²åÈë"%20"¡£
-p1ºÍp2²»¶ÏÏòÇ°ÒÆ£¬Ö±µ½p1ºÍp2ÖØºÏ¡£
+æ€è·¯ï¼šæ—¶é—´å¤æ‚åº¦O(n)
+å…ˆéåŽ†ä¸€éå­—ç¬¦ä¸²ç»Ÿè®¡ç©ºæ ¼çš„æ•°é‡ï¼Œåˆ™å¯ä»¥ç®—å‡ºå­—ç¬¦ä¸²è¢«æ›¿æ¢åŽçš„æ€»é•¿åº¦=åŽŸé•¿åº¦+2*ç©ºæ ¼æ•°ã€‚
+æŽ¥ä¸‹æ¥ä»ŽåŽå¾€å‰æ¥å¤åˆ¶ã€æ›¿æ¢å­—ç¬¦ä¸²ã€‚å‡†å¤‡ä¸¤ä¸ªæŒ‡é’ˆp1å’Œp2ï¼Œp1æŒ‡å‘åŽŸå­—ç¬¦ä¸²çš„æœ«å°¾ï¼Œp2æŒ‡å‘æ›¿æ¢åŽå­—ç¬¦ä¸²çš„æœ«å°¾ï¼ˆäº‹å®žä¸Šéƒ½åœ¨ä¸€ä¸ªå­—ç¬¦ä¸²ä¸­ï¼‰ã€‚
+å¦‚æžœp1ä¸Šçš„å€¼ä¸æ˜¯ç©ºæ ¼ï¼Œåˆ™å¤åˆ¶åˆ°p2ä½ç½®ä¸Šï¼›å¦‚æžœæ˜¯ç©ºæ ¼ï¼Œåˆ™p2åŠå‰ä¸¤ä½æ’å…¥"%20"ã€‚
+p1å’Œp2ä¸æ–­å‘å‰ç§»ï¼Œç›´åˆ°p1å’Œp2é‡åˆã€‚
 --------------------------------------------------------------***/
-
+ 
 class solution5 {
 public:
 	void replaceSpace(char *str, int length) {
 		if (str == nullptr) { return; }
-		//Ò»´ÎÐÔ´òÓ¡×Ö·û´®µÄ3¸ö·½·¨
+		//ä¸€æ¬¡æ€§æ‰“å°å­—ç¬¦ä¸²çš„3ä¸ªæ–¹æ³•
 		//cout << str <<endl;  
 		//printf("%s\n", str);
-		//puts(str);            //×Ô´ø»Ø³µ
+		//puts(str);            //è‡ªå¸¦å›žè½¦
 		int num_space=0;
 		for (int i = 0; i < length; i++) {
-			if (str[i] == ' ') num_space++;  //×¢£ºµ¥ÒýºÅÊÇ×Ö·û£¬Ë«ÒýºÅÊÇ×Ö·û´®
+			if (str[i] == ' ') num_space++;  //æ³¨ï¼šå•å¼•å·æ˜¯å­—ç¬¦ï¼ŒåŒå¼•å·æ˜¯å­—ç¬¦ä¸²
 		}
 		int new_length = length + num_space * 2;
-		int p1 = length;  //ÐÂÊý×é
+		int p1 = length;  //æ–°æ•°ç»„
 		int p2 = new_length;
 		while (p1 < p2) {
 			if (str[p1] != ' ') {
@@ -82,7 +82,7 @@ public:
 		char str[] = "";
 		int length = 1;
 		replaceSpace(str, length);
-		cout << "Correct Answer:¿Õ×Ö·û´®\n\n";
+		cout << "Correct Answer:ç©ºå­—ç¬¦ä¸²\n\n";
 	}
 
 	void run() {

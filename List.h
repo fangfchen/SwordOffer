@@ -2,11 +2,11 @@ struct ListNode {
 	int val;
 	ListNode *next;
 	//struct ListNode *next; 
-	//ListNode(int x) :  //¿ÉÒÔÓÃÕâÖÖ·½Ê½´´½¨ÖµÎªxµÄ½Úµã
+	//ListNode(int x) :  //å¯ä»¥ç”¨è¿™ç§æ–¹å¼åˆ›å»ºå€¼ä¸ºxçš„èŠ‚ç‚¹
 	//	val(x), next(NULL) {
 	//}
 }; 
-
+ 
 ListNode* CreateListNode(int value);
 void ConnectListNodes(ListNode* pCurrent, ListNode* pNext);
 void PrintList(ListNode* pHead);

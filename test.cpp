@@ -18,50 +18,50 @@ int test_sizeof() {  //sizeof
 	return 0;
 }
 
-void test1() {  //Êı×é sizeof memset³õÊ¼»¯
+void test1() {  //æ•°ç»„ sizeof memsetåˆå§‹åŒ–
 	int a[10];
-	cout << a[2] << endl;   //Ëæ»úÊı
+	cout << a[2] << endl;   //éšæœºæ•°
 	memset(a, 0, sizeof(a));
 	cout << a[2] << endl;   //0
 
 	int length = 10;
 	int* const b = (int*)malloc(sizeof(int)*length);
-	cout << sizeof(b) << endl;  //4£¨ËäÈ»¸øbÊı×é·ÖÅäÁËÄÚ´æ£¬µ«ÊÇÒòÎªËûÏÖÔÚÊÇintÖ¸Õë£¬ËùÒÔsizeof(b)ÊÇ4£¡£¡£¡£¡£¡£©
-	cout << b[2] << endl;	//Ëæ»úÊı
+	cout << sizeof(b) << endl;  //4ï¼ˆè™½ç„¶ç»™bæ•°ç»„åˆ†é…äº†å†…å­˜ï¼Œä½†æ˜¯å› ä¸ºä»–ç°åœ¨æ˜¯intæŒ‡é’ˆï¼Œæ‰€ä»¥sizeof(b)æ˜¯4ï¼ï¼ï¼ï¼ï¼ï¼‰
+	cout << b[2] << endl;	//éšæœºæ•°
 	memset(b, 0, sizeof(b));
-	cout << b[2] << endl;	//Ëæ»úÊı
+	cout << b[2] << endl;	//éšæœºæ•°
 	cout << b[0] << endl;   //0
-	memset(b, 0, sizeof(int)*length);   //ÓÃmallocºó½øĞĞmemset²»ÄÜÖ±½ÓÓÃsizeof(b)£¡ÒªĞ´sizeof(int)*length£¡£¡£¡
+	memset(b, 0, sizeof(int)*length);   //ç”¨mallocåè¿›è¡Œmemsetä¸èƒ½ç›´æ¥ç”¨sizeof(b)ï¼è¦å†™sizeof(int)*lengthï¼ï¼ï¼
 	cout << b[2] << endl;
 
-	int* const c = (int*)calloc(length,sizeof(int));  //calloc(Á¬Ğø·ÖÅän¸ö´óĞ¡Ò»ÑùµÄÄÚ´æ¿Õ¼ä)»á×Ô¶¯³õÊ¼»¯Îª0£¡£¡£¡£¡£¡
+	int* const c = (int*)calloc(length,sizeof(int));  //calloc(è¿ç»­åˆ†é…nä¸ªå¤§å°ä¸€æ ·çš„å†…å­˜ç©ºé—´)ä¼šè‡ªåŠ¨åˆå§‹åŒ–ä¸º0ï¼ï¼ï¼ï¼ï¼
 	cout << c[2] << endl;
 	
 }
 
-void swap(int& a, int& b) {   //ÒıÓÃ
+void swap(int& a, int& b) {   //å¼•ç”¨
 	int c = a;
 	a = b;
 	b = c;
 }
 
-void test2() {  //ÒıÓÃ
+void test2() {  //å¼•ç”¨
 	int a = 1;
 	int b = 2;
 	printf("Original: a = %d, b = %d\n", a, b);   //1 2
 	swap(a, b);
-	printf("After swap: a = %d, b = %d\n", a, b); //2 1 ÓÃÁËÒıÓÃºó£¬swapÖĞ±ä»¯£¬ÕâÀïÒ²»á±ä»¯£¡
+	printf("After swap: a = %d, b = %d\n", a, b); //2 1 ç”¨äº†å¼•ç”¨åï¼Œswapä¸­å˜åŒ–ï¼Œè¿™é‡Œä¹Ÿä¼šå˜åŒ–ï¼
 }
 
 
-void test3() {  //ÒıÓÃ
+void test3() {  //å¼•ç”¨
 	int a = 1;
 	int& b = a;
 	printf("a = %d, b = %d\n", a, b); //1 1
 	b = 3;
 	printf("a = %d, b = %d\n", a, b); //3 3
 	a = 5;
-	printf("a = %d, b = %d\n", a, b); //5 5 £¨ÒıÓÃºó£¬a,bµÄÖµÊ¼ÖÕ±£³ÖÒ»ÖÂ£¡£¡£©
+	printf("a = %d, b = %d\n", a, b); //5 5 ï¼ˆå¼•ç”¨åï¼Œa,bçš„å€¼å§‹ç»ˆä¿æŒä¸€è‡´ï¼ï¼ï¼‰
 	int& c = a;
 	c = 7;
 	printf("a = %d, b = %d, c= %d\n", a, b, c);
@@ -70,7 +70,7 @@ void test3() {  //ÒıÓÃ
 	printf("a = %d, b = %d, c= %d, d= %d\n", a, b, c, d);
 }
 
-void test4() {  //boolĞÍ¶¯Ì¬Êı×é³õÊ¼»¯
+void test4() {  //boolå‹åŠ¨æ€æ•°ç»„åˆå§‹åŒ–
 	bool* hash = new bool[5]();
 	for (int i = 0; i < 5; i++) {
 		if (hash[i] == true) {
@@ -82,31 +82,31 @@ void test4() {  //boolĞÍ¶¯Ì¬Êı×é³õÊ¼»¯
 	}
 }
 
-void test5() {   //vector³õÊ¼»¯
+void test5() {   //vectoråˆå§‹åŒ–
 	int a[5] = { 3, 2, 5, 7, 8 };
 	int length = sizeof(a)/sizeof(int);
-	//ÓÃpush_backÖğÒ»¼ÓÈë
-	vector<int> v1;       //ÈôÖ±½ÓÔÙÕâÀï¶¨Òå(length)£¬Ôò»á¶¼³õÊ¼»¯Îª0£¬push_back»áÔÚÒÑÓĞµÄ0ºó¼ÌĞøÍùºó¼Ó£¡(0 0 0 0 0 3 2 5 7 8)
-	v1.reserve(length);   //²»Ğ´Õâ¾äÒ²ĞĞ,µ«Ğ´ÁË¿ÉÒÔ¼õÉÙÄÚ´æ·ÖÅä´ÎÊı
+	//ç”¨push_backé€ä¸€åŠ å…¥
+	vector<int> v1;       //è‹¥ç›´æ¥å†è¿™é‡Œå®šä¹‰(length)ï¼Œåˆ™ä¼šéƒ½åˆå§‹åŒ–ä¸º0ï¼Œpush_backä¼šåœ¨å·²æœ‰çš„0åç»§ç»­å¾€ååŠ ï¼(0 0 0 0 0 3 2 5 7 8)
+	v1.reserve(length);   //ä¸å†™è¿™å¥ä¹Ÿè¡Œ,ä½†å†™äº†å¯ä»¥å‡å°‘å†…å­˜åˆ†é…æ¬¡æ•°
 	for (int i = 0; i < length; i++) {
 		v1.push_back(a[i]);
 	}
-	copy(v1.begin(), v1.end(), ostream_iterator<int>(cout, " "));  //´òÓ¡vector£¡£¡
+	copy(v1.begin(), v1.end(), ostream_iterator<int>(cout, " "));  //æ‰“å°vectorï¼ï¼
 	cout << endl;
 	
-	//¡¾×î·½±ã¡¿¶¨ÒåÊ±Ö±½Ó´øÈëÒÑÖªÊı×éµÄÍ·¡¢Î²Ö¸Õë
+	//ã€æœ€æ–¹ä¾¿ã€‘å®šä¹‰æ—¶ç›´æ¥å¸¦å…¥å·²çŸ¥æ•°ç»„çš„å¤´ã€å°¾æŒ‡é’ˆ
 	vector<int> v2(&a[0], &a[length]);
 	copy(v2.begin(), v2.end(), ostream_iterator<int>(cout, " "));
 	cout << endl;
 
-	//¶¨ÒåºóÔÙinsertÒÑÖªÊı×éµÄÍ·¡¢Î²Ö¸Õë
-	vector<int> v3;	     //ÈôÖ±½ÓÔÙÕâÀï¶¨Òå(length)£¬Ôò»á¶¼³õÊ¼»¯Îª0£¬insertºó»áÓĞÒ»´®0(3 2 5 7 8 0 0 0 0 0)
-	v3.reserve(length);  //²»Ğ´Õâ¾äÒ²ĞĞ,µ«Ğ´ÁË¿ÉÒÔ¼õÉÙÄÚ´æ·ÖÅä´ÎÊı
+	//å®šä¹‰åå†insertå·²çŸ¥æ•°ç»„çš„å¤´ã€å°¾æŒ‡é’ˆ
+	vector<int> v3;	     //è‹¥ç›´æ¥å†è¿™é‡Œå®šä¹‰(length)ï¼Œåˆ™ä¼šéƒ½åˆå§‹åŒ–ä¸º0ï¼Œinsertåä¼šæœ‰ä¸€ä¸²0(3 2 5 7 8 0 0 0 0 0)
+	v3.reserve(length);  //ä¸å†™è¿™å¥ä¹Ÿè¡Œ,ä½†å†™äº†å¯ä»¥å‡å°‘å†…å­˜åˆ†é…æ¬¡æ•°
 	v3.insert(v3.begin(), &a[0], &a[length]);
 	copy(v3.begin(), v3.end(), ostream_iterator<int>(cout, " "));
 	cout << endl;
 
-	//¶şÎ¬vector
+	//äºŒç»´vector
 	//1 2 8  9
 	//2 4 9  12
 	//4 7 10 13
@@ -114,7 +114,7 @@ void test5() {   //vector³õÊ¼»¯
 	int n = 4;
 	int m = 4;
 	int a4[4][4] = { { 1, 2, 8, 9 },{ 2, 4, 9, 12 },{ 4, 7, 10, 13 },{ 6, 8, 11, 15 } };
-	vector<vector<int>> v4(n, vector<int>(m));  //¶¨Òå¶şÎ¬vector£¡
+	vector<vector<int>> v4(n, vector<int>(m));  //å®šä¹‰äºŒç»´vectorï¼
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			v4[i][j] = a4[i][j];
@@ -126,24 +126,24 @@ void test5() {   //vector³õÊ¼»¯
 
 void test6() {		//vector
 	vector<int> v(10);
-	//vector<double> v(10);       //¶¨Òå´óĞ¡Îª10£¨²¢³õÊ¼»¯Îª0£¬Èô´ËÊ±ÓÃpush_backÔò»á·ÅÔÚv[10]£©
-	//vector<double> v(10, 2.5);  //³õÊ¼»¯Ã¿¸öÊıÎª2.5
-	//vector<int> v2(v1);         //¿½±´´´½¨
+	//vector<double> v(10);       //å®šä¹‰å¤§å°ä¸º10ï¼ˆå¹¶åˆå§‹åŒ–ä¸º0ï¼Œè‹¥æ­¤æ—¶ç”¨push_backåˆ™ä¼šæ”¾åœ¨v[10]ï¼‰
+	//vector<double> v(10, 2.5);  //åˆå§‹åŒ–æ¯ä¸ªæ•°ä¸º2.5
+	//vector<int> v2(v1);         //æ‹·è´åˆ›å»º
 
-	//v.push_back(3);        //ÔÚÄ©Î²Ìí¼Ó3
-	//v.insert(v.end(), 10); //ÔÚÄ©Î²²åÈë10£¨ĞèÖ¸¶¨Ò»¸öµü´úÆ÷£©
-	//v[i] = 5;              //°ÑµÚiÎ»¸³ÖµÎª5
+	//v.push_back(3);        //åœ¨æœ«å°¾æ·»åŠ 3
+	//v.insert(v.end(), 10); //åœ¨æœ«å°¾æ’å…¥10ï¼ˆéœ€æŒ‡å®šä¸€ä¸ªè¿­ä»£å™¨ï¼‰
+	//v[i] = 5;              //æŠŠç¬¬iä½èµ‹å€¼ä¸º5
 
 
-	//v.size()    //vector´óĞ¡£¨ÔªËØ¸öÊı£©
-	//v.empyt()   //ÅĞ¶Ï¶ÓÁĞÊÇ·ñÎª¿Õ£¬ÈôÎª¿Õ·µ»Ø1£¬²»¿Õ·µ»Ø0
-	//v.clear()   //Çå¿Õ¶ÓÁĞ
-	//v.front()   //vectorµÄµÚÒ»¸öÔªËØÖµ
-	//v.back()    //vectorµÄ×îºóÒ»¸öÔªËØÖµ
-	//v.push_back(a);    //ÔÚÄ©Î²Ìí¼ÓÒ»¸öĞÂÔªËØa
-	//v.pop_back();      //É¾³ıÄ©Î²ÔªËØ ×¢£º¶ÓÁĞÎª¿ÕÊ±²»ÄÜÓÃpop£¡
-	//if (!v.empty()) v.pop_back();  //ÅĞ¶Ï²»Îª¿ÕÔÙÉ¾³ı
-	//v.erase(v.begin()) //É¾³ı¿ªÍ·µÄÔªËØ
+	//v.size()    //vectorå¤§å°ï¼ˆå…ƒç´ ä¸ªæ•°ï¼‰
+	//v.empyt()   //åˆ¤æ–­é˜Ÿåˆ—æ˜¯å¦ä¸ºç©ºï¼Œè‹¥ä¸ºç©ºè¿”å›1ï¼Œä¸ç©ºè¿”å›0
+	//v.clear()   //æ¸…ç©ºé˜Ÿåˆ—
+	//v.front()   //vectorçš„ç¬¬ä¸€ä¸ªå…ƒç´ å€¼
+	//v.back()    //vectorçš„æœ€åä¸€ä¸ªå…ƒç´ å€¼
+	//v.push_back(a);    //åœ¨æœ«å°¾æ·»åŠ ä¸€ä¸ªæ–°å…ƒç´ a
+	//v.pop_back();      //åˆ é™¤æœ«å°¾å…ƒç´  æ³¨ï¼šé˜Ÿåˆ—ä¸ºç©ºæ—¶ä¸èƒ½ç”¨popï¼
+	//if (!v.empty()) v.pop_back();  //åˆ¤æ–­ä¸ä¸ºç©ºå†åˆ é™¤
+	//v.erase(v.begin()) //åˆ é™¤å¼€å¤´çš„å…ƒç´ 
 		
 	for (int i = 0; i < v.size(); i++) {
 		cout << v[i] << endl;
@@ -154,7 +154,7 @@ void test6() {		//vector
 		cout << *i << endl;
 	}
 }
-
+ 
 
 //int main() {
 //	test6();
