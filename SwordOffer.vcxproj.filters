@@ -50,5 +50,8 @@
     <ClCompile Include="List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Myoffer18_02_List_DeleteDuplicatedNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -116,9 +116,9 @@ public:
 	}
 };
 
-int main() {
-	Solution6 s;
-	s.run();
-}
+//int main() {
+//	Solution6 s;
+//	s.run();
+//}
 
 
