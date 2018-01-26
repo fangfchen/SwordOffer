@@ -12,7 +12,7 @@ using namespace std;
 //         pHead:     表头
 // 返回值: 
 //         ListNode*: 处理后的表头
-/*
+/* 
 struct ListNode {
 int val;
 struct ListNode *next;
@@ -242,7 +242,7 @@ public:
 	}
 };
 
-int main() {
-	Solution18_2 s;
-	s.run();
-}
+//int main() {
+//	Solution18_2 s;
+//	s.run();
+//}

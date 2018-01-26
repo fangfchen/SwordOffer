@@ -1,5 +1,9 @@
-﻿  Myoffer18_02_List_DeleteDuplicatedNode.cpp
-f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+﻿  Myoffer22_List_KthNodeFromEnd.cpp
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(32): warning C4018: “>”: 有符号/无符号不匹配
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(50): warning C4018: “>”: 有符号/无符号不匹配
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(52): warning C4018: “>”: 有符号/无符号不匹配
   SwordOffer.vcxproj -> F:\CODE\SwordOffer\x64\Debug\SwordOffer.exe
   SwordOffer.vcxproj -> F:\CODE\SwordOffer\x64\Debug\SwordOffer.pdb (Partial PDB)
