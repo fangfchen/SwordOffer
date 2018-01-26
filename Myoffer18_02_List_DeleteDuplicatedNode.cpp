@@ -34,6 +34,7 @@ public:
 	若pCurrent移动了但没停在尾节点：说明中间有一段重复，故删除pPre->next到pCurrent的节点，并令pPre->next=pCurrent->next；
 	若pCurrent没有移动：说明没有重复，pPre后移。
 	3. 重复第2步，直到所有的节点都比完（pPre->next不为空）。
+	【特点：用虚拟表头避免头部重复的判断；每次先把重复的部分找到再统一删除。】
 	--------------------------------------------------------------***/
 	void DeleteNode(ListNode* pstart, ListNode* pend) {
 		ListNode* pnode = pstart;
@@ -63,18 +64,21 @@ public:
 			while (pCurrent->next != nullptr && pCurrent->next->val == pPre->next->val) { //比较时用pCurrent的后一个比
 				pCurrent = pCurrent->next;
 			}
-			if (pCurrent != pPre->next) {  //如果移动了
-				//移动&&在末尾：有重复，删除后面所有
-				if (pCurrent->next == nullptr) {  
-					DeleteNode(pPre->next, pCurrent);
-					pPre->next = nullptr;
-				}
-				else {    
-				//移动了&&不在末尾：有重复，删除中间部分
-					ListNode* pnext = pCurrent->next;       //注：要提前存下来！否则pCurrent删了就没了！
-					DeleteNode(pPre->next, pCurrent);
-					pPre->next = pnext;
-				}
+			if (pCurrent != pPre->next) {  //如果移动了（其实这两种情况可以并到一起写！）
+				////移动&&在末尾：有重复，删除后面所有
+				//if (pCurrent->next == nullptr) {  
+				//	DeleteNode(pPre->next, pCurrent);
+				//	pPre->next = nullptr;
+				//}
+				//else {    
+				////移动了&&不在末尾：有重复，删除中间部分
+				//	ListNode* pnext = pCurrent->next;       //注：要提前存下来！否则pCurrent删了就没了！
+				//	DeleteNode(pPre->next, pCurrent);
+				//	pPre->next = pnext;
+				//}
+				ListNode* pnext = pCurrent->next;     
+				DeleteNode(pPre->next, pCurrent);
+				pPre->next = pnext;
 			}
 			else {                 
 				//如果没有移动：没重复，不删，pPre后移
@@ -85,8 +89,14 @@ public:
 		
 	}
 	/***--------------------------------------------------------------
-	思路1：
-	1. 设两个指针，
+	思路2：
+	1. 设两个指针，pPre指向重复节点的前一个节点；pNode指向当前节点，从pPre->next开始。
+	2. 先判断是否有重复(pNode的值是否等于pNode->next)：
+	   若没重复，pPre和pNode都后移；
+	   若有重复，则用while找有多少重复，且边找边删（把第一个value先取出来），直到不重复或pNode为nullptr为止。
+	   此时还需判断是否为头部重复，若是则令pHead=pNode；否则令pPre->next = pNode。
+	3. 重复第2步，直到pNode=nullptr为止。
+	【特点：先判断是否有重复，若有重复在找有多少重复，且边找边删。】
 	--------------------------------------------------------------***/
 	ListNode* deleteDuplication2(ListNode* pHead) {
 		if (pHead == nullptr) {
@@ -97,15 +107,27 @@ public:
 		}
 		ListNode* pPre = nullptr;
 		ListNode* pNode = pHead;
-		while (pNode!=nullptr) {
-			if (pNode->next->val == pNode->val) {  //若有重复
+		while (pNode!=nullptr && pNode->next!=nullptr) {
+			if (pNode->val != pNode->next->val) {  //若没重复
+				pPre = pNode;
+				pNode = pNode->next;
+			}
+			else{  //若有重复
 				int value = pNode->val;
 				while (pNode != nullptr && pNode->val == value) {
-					???
+					ListNode* pnext = pNode->next;
+					delete pNode;  //边找边删
+					pNode = pnext;
+				}
+				if (pPre == nullptr) { //若第一个节点就开始重复，则直接改pHead
+					pHead = pNode;
+				}
+				else {
+					pPre->next = pNode;
 				}
 			}
-
 		}
+		return pHead;
 	}
 
 
