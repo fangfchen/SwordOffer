@@ -155,6 +155,7 @@
     <ClCompile Include="List.cpp" />
     <ClCompile Include="Myoffer18_02_List_DeleteDuplicatedNode.cpp" />
     <ClCompile Include="Myoffer23_List_EntryNodeInListLoop.cpp" />
+    <ClCompile Include="Myoffer24_List_ReverseList.cpp" />
     <ClCompile Include="Myoffer3_01_Array_Duplication.cpp" />
     <ClCompile Include="Myoffer4_Array_FindInPartiallySortedMatrix.cpp" />
     <ClCompile Include="Myoffer5_String_ReplaceSpace.cpp" />

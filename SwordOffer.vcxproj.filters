@@ -59,5 +59,8 @@
     <ClCompile Include="Myoffer23_List_EntryNodeInListLoop.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Myoffer24_List_ReverseList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

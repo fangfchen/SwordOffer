@@ -142,7 +142,7 @@ public:
 	}
 };
 
-int main() {
-	Solution23 s;
-	s.run();
-}
+//int main() {
+//	Solution23 s;
+//	s.run();
+//}
