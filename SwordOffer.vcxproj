@@ -162,6 +162,7 @@
     <ClCompile Include="Myoffer25_List_MergeSortedLists.cpp" />
     <ClCompile Include="Myoffer3_01_Array_Duplication.cpp" />
     <ClCompile Include="Myoffer4_Array_FindInPartiallySortedMatrix.cpp" />
+    <ClCompile Include="Myoffer52_List_FirstCommonNodesInLists.cpp" />
     <ClCompile Include="Myoffer5_String_ReplaceSpace.cpp" />
     <ClCompile Include="Myoffer6_List_PrintListInReversedOrder.cpp" />
     <ClCompile Include="Myoffer22_List_KthNodeFromEnd.cpp" />

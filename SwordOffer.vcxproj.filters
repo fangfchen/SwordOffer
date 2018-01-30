@@ -74,5 +74,8 @@
     <ClCompile Include="Myoffer35_List_CopyComplexList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Myoffer52_List_FirstCommonNodesInLists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
