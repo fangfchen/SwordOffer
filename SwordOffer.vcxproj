@@ -147,12 +147,14 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="ComplexList.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="Myoffer35_List_CopyComplexList.cpp" />
     <ClCompile Include="ComplexList.cpp" />
     <ClCompile Include="List.cpp" />
@@ -166,6 +168,7 @@
     <ClCompile Include="Myoffer5_String_ReplaceSpace.cpp" />
     <ClCompile Include="Myoffer6_List_PrintListInReversedOrder.cpp" />
     <ClCompile Include="Myoffer22_List_KthNodeFromEnd.cpp" />
+    <ClCompile Include="Myoffer7_Tree_ConstructBinaryTree.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
