@@ -1,4 +1,4 @@
-#include"stdafx.h"
+//#include"stdafx.h"
 #include<iostream>
 #include"List.h"
 using namespace std;
@@ -195,7 +195,7 @@ public:
 		test4();
 	}
 };
-//
+
 //int main() {
 //	Solution25 s;
 //	s.run();
