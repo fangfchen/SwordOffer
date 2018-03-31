@@ -1,4 +1,4 @@
-//#include"stdafx.h"
+#include"stdafx.h"
 #include<iostream>
 #include"List.h"
 
@@ -20,25 +20,30 @@ val(x), next(NULL) {
 class Solution24 {
 public:
 	/***--------------------------------------------------------------
-	思路1【书】：定义3个指针：p1,p2,pnext分别依次指向连续的3个节点（即p2=p1->next;pnext=p2->next），每次先取出p2->next存在pnext中，再把p2->next改为p1。
-	依次往后重复这个操作，直到p2为nullptr为止。
+	思路1【书】：定义3个指针：ppre,ptemp,pnext分别依次指向连续的3个节点（即ptemp=ppre->next;pnext=ptemp->next），每次先取出ptemp->next存在pnext中，再把ptemp->next改为ppre。
+	依次往后重复这个操作，直到ptemp为nullptr为止。
 	(注意：
 	 1个节点的情况;
 	 别忘了令pHead->next=nullptr)
 	--------------------------------------------------------------***/
 	ListNode* ReverseList1(ListNode* pHead) {
-		if (pHead == nullptr) return nullptr;     //空链表
-		if (pHead->next == nullptr) return pHead; //单节点链表
-		ListNode* p1 = pHead;
-		ListNode* p2 = pHead->next;
-		pHead->next = nullptr; //令头结点下一个为nullptr（因为反转后为尾节点）
-		while (p2 != nullptr) {
-			ListNode* pnext = p2->next;
-			p2->next = p1;
-			p1 = p2;
-			p2 = pnext;
+		if (pHead == nullptr || pHead->next == nullptr) {  //若为空或只有一个节点，则返回
+			return nullptr;
 		}
-		return p1;
+
+		ListNode* ppre = pHead;				//记录三个指针，ppre,ptemp,pnext
+		ListNode* ptemp = pHead->next;
+		ListNode* pnext;
+		
+		pHead->next = nullptr;			//令头指针下一个为nullptr（因为反转后为尾节点）
+		
+		while (ptemp != nullptr) {
+			ListNode* pnext = ptemp->next;
+			ptemp->next = ppre;
+			ppre = ptemp;
+			ptemp = pnext;
+		}
+		return ppre;
 	}
 
 	/***--------------------------------------------------------------
@@ -121,7 +126,7 @@ public:
 };
 
 
-//int main() {
-//	Solution24 s;
-//	s.run();
-//}
+int main() {
+	Solution24 s;
+	s.run();
+}

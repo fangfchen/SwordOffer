@@ -1,6 +1,718 @@
-﻿  Myoffer7_Tree_ConstructBinaryTree.cpp
+﻿  Test.cpp
+f:\code\swordoffer\swordoffer\test.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\test.cpp(22): error C2065: “a”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(23): error C2065: “a”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(50): error C2601: “test3”: 本地函数定义是非法的
+  f:\code\swordoffer\swordoffer\test.cpp(42): note: 此行有一个“{”没有匹配项
+f:\code\swordoffer\swordoffer\test.cpp(66): error C2601: “test4”: 本地函数定义是非法的
+  f:\code\swordoffer\swordoffer\test.cpp(42): note: 此行有一个“{”没有匹配项
+f:\code\swordoffer\swordoffer\test.cpp(78): error C2601: “test5”: 本地函数定义是非法的
+  f:\code\swordoffer\swordoffer\test.cpp(42): note: 此行有一个“{”没有匹配项
+f:\code\swordoffer\swordoffer\test.cpp(85): error C2065: “v1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(85): error C2228: “.begin”的左边必须有类/结构/联合
+  f:\code\swordoffer\swordoffer\test.cpp(85): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\test.cpp(85): error C2228: “.end”的左边必须有类/结构/联合
+  f:\code\swordoffer\swordoffer\test.cpp(85): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\test.cpp(85): error C2672: “copy”: 未找到匹配的重载函数
+f:\code\swordoffer\swordoffer\test.cpp(85): error C2780: “_OutTy *std::copy(_InIt,_InIt,_OutTy (&)[_OutSize])”: 应输入 3 个参数，却提供了 2 个
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\xutility(2302): note: 参见“std::copy”的声明
+f:\code\swordoffer\swordoffer\test.cpp(85): error C2780: “_OutIt std::copy(_InIt,_InIt,_OutIt)”: 应输入 3 个参数，却提供了 2 个
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\xutility(2291): note: 参见“std::copy”的声明
+f:\code\swordoffer\swordoffer\test.cpp(89): error C2109: 下标要求数组或指针类型
+f:\code\swordoffer\swordoffer\test.cpp(89): error C2065: “length”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(95): error C2065: “length”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(109): error C2065: “i”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(111): error C2065: “i”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(111): error C2228: “.begin”的左边必须有类/结构/联合
+f:\code\swordoffer\swordoffer\test.cpp(111): error C2228: “.end”的左边必须有类/结构/联合
+f:\code\swordoffer\swordoffer\test.cpp(111): error C2672: “copy”: 未找到匹配的重载函数
+f:\code\swordoffer\swordoffer\test.cpp(111): error C2780: “_OutTy *std::copy(_InIt,_InIt,_OutTy (&)[_OutSize])”: 应输入 3 个参数，却提供了 2 个
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\xutility(2302): note: 参见“std::copy”的声明
+f:\code\swordoffer\swordoffer\test.cpp(111): error C2780: “_OutIt std::copy(_InIt,_InIt,_OutIt)”: 应输入 3 个参数，却提供了 2 个
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\xutility(2291): note: 参见“std::copy”的声明
+f:\code\swordoffer\swordoffer\test.cpp(79): error C2065: “a”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(83): error C2065: “a”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(83): error C2065: “i”: 未声明的标识符
+f:\code\swordoffer\swordoffer\test.cpp(114): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\test.cpp(114): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\test.cpp(116): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\test.cpp(116): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+  QuickSort.cpp
+f:\code\swordoffer\swordoffer\quicksort.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\quicksort.cpp(5): fatal error C1075: 左侧的 大括号“{” 与文件结尾不匹配
+  Myoffer8_Tree_NextNodeInBinaryTrees.cpp
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(18): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(18): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(119): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(119): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(119): error C3646: “left”: 未知重写说明符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(119): error C2059: 语法错误:“=”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(119): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(120): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(120): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(122): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(122): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(122): error C3646: “right”: 未知重写说明符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(122): error C2059: 语法错误:“=”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(122): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(123): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(123): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(125): error C2059: 语法错误:“return”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(125): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(32): error C2065: “ptemp”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(32): error C2227: “->left”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(32): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(33): error C2065: “ptemp”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(33): error C2227: “->left”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(33): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(35): error C2065: “ptemp”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(43): error C2065: “ptemp”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(43): error C2227: “->parent”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(43): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(43): error C2227: “->left”的左边必须指向类/结构/联合/泛型类型
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(44): error C2065: “ptemp”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(44): error C2227: “->parent”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(44): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(46): error C2065: “ptemp”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(46): error C2227: “->parent”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(46): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(47): error C2181: 没有匹配 if 的非法 else
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(48): error C2065: “ptemp”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(48): error C2227: “->parent”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(48): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(59): error C2181: 没有匹配 if 的非法 else
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(95): error C2664: “TreeLinkNode::TreeLinkNode(TreeLinkNode &&)”: 无法将参数 1 从“int”转换为“const TreeLinkNode &”
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(95): note: 原因如下: 无法从“int”转换为“const TreeLinkNode”
+  f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(95): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+f:\code\swordoffer\swordoffer\myoffer8_tree_nextnodeinbinarytrees.cpp(129): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  Myoffer7_Tree_ConstructBinaryTree.cpp
 f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(53): warning C4101: “exception”: 未引用的局部变量
-  SwordOffer.vcxproj -> F:\CODE\SwordOffer\x64\Debug\SwordOffer.exe
-  SwordOffer.vcxproj -> F:\CODE\SwordOffer\x64\Debug\SwordOffer.pdb (Partial PDB)
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(59): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(59): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(59): error C3646: “left”: 未知重写说明符
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(59): error C2059: 语法错误:“=”
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(59): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(60): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(60): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(60): error C3646: “right”: 未知重写说明符
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(60): error C2059: 语法错误:“=”
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(60): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(62): error C2059: 语法错误:“return”
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(62): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+f:\code\swordoffer\swordoffer\myoffer7_tree_constructbinarytree.cpp(73): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Myoffer6_List_PrintListInReversedOrder.cpp
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(94): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(94): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(94): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(96): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(96): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(96): error C2535: “int Solution6::printf(void)”: 已经定义或声明成员函数
+  f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(94): note: 参见“Solution6::printf”的声明
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(96): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(97): error C2061: 语法错误: 标识符“pHead”
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(97): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(97): warning C4183: “PrintList”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(98): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(98): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(98): error C2535: “int Solution6::printf(void)”: 已经定义或声明成员函数
+  f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(94): note: 参见“Solution6::printf”的声明
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(98): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(99): error C2061: 语法错误: 标识符“pHead”
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(99): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(99): warning C4183: “Test”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(102): error C2628: “Solution6”后面接“void”是非法的(是否忘记了“;”?)
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(103): error C3861: “test1”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(104): error C3861: “test2”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(105): error C3861: “test3”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(52): error C2601: “printListFromTailToHead2”: 本地函数定义是非法的
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(61): error C2082: 形参“v”的重定义
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(61): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(70): error C2660: “Solution6::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(76): error C2660: “Solution6::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(77): error C2660: “Solution6::PrintList”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(78): error C2660: “Solution6::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(79): error C2660: “Solution6::Test”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(84): error C2660: “Solution6::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(87): error C2660: “Solution6::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(88): error C2660: “Solution6::PrintList”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(89): error C2660: “Solution6::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(90): error C2660: “Solution6::Test”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(55): error C3861: “reverse_order_recursive”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(107): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer6_list_printlistinreversedorder.cpp(107): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Myoffer5_String_ReplaceSpace.cpp
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(50): error C2628: “solution5”后面接“void”是非法的(是否忘记了“;”?)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(51): error C3861: “replaceSpace”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(36): error C2065: “p2”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(39): error C2065: “p2”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(40): error C2065: “p2”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(41): error C2065: “p2”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(44): error C2065: “p2”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(58): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(58): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(58): error C2086: “int cout”: 重定义
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 参见“cout”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(59): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(59): error C2365: “Test”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(50): note: 参见“Test”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(60): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(60): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(63): error C2374: “str”: 重定义；多次初始化
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(56): note: 参见“str”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(64): error C2374: “length”: 重定义；多次初始化
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(57): note: 参见“length”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(65): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(65): error C2086: “int cout”: 重定义
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 参见“cout”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(66): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(66): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(66): error C2086: “int cout”: 重定义
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 参见“cout”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(67): error C2365: “Test”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(50): note: 参见“Test”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(68): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(68): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(71): error C2374: “str”: 重定义；多次初始化
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(56): note: 参见“str”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(72): error C2374: “length”: 重定义；多次初始化
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(57): note: 参见“length”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(73): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(73): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(73): error C2086: “int cout”: 重定义
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 参见“cout”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(74): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(74): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(74): error C2086: “int cout”: 重定义
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 参见“cout”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(75): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(75): error C2365: “Test”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(50): note: 参见“Test”的声明
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(76): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(76): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(78): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(78): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(88): error C2872: “cout”: 不明确的符号
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 可能是“int cout”
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\iostream(28): note: 或  “std::ostream std::cout”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(88): error C2297: “<<”: 非法，右操作数包含“const char [7]”类型
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(88): error C2563: 在形参表中不匹配
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(88): error C2568: “<<”: 无法解析函数重载
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(88): note: 可能是“std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(91): error C2872: “cout”: 不明确的符号
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 可能是“int cout”
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\iostream(28): note: 或  “std::ostream std::cout”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(91): error C2297: “<<”: 非法，右操作数包含“const char [18]”类型
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(91): error C2297: “<<”: 非法，右操作数包含“char [6]”类型
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(91): error C2563: 在形参表中不匹配
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(91): error C2568: “<<”: 无法解析函数重载
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(91): note: 可能是“std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(92): error C2872: “cout”: 不明确的符号
+  f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(55): note: 可能是“int cout”
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\iostream(28): note: 或  “std::ostream std::cout”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(92): error C2297: “<<”: 非法，右操作数包含“const char [23]”类型
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(92): warning C4552: “<<”: 运算符不起任何作用；应输入带副作用的运算符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(96): error C3861: “test1”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(97): error C3861: “test2”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(98): error C3861: “test3”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(99): error C3861: “test4”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(102): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer5_string_replacespace.cpp(102): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Myoffer52_List_FirstCommonNodesInLists.cpp
+f:\code\swordoffer\swordoffer\myoffer52_list_firstcommonnodesinlists.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer52_list_firstcommonnodesinlists.cpp(37): error C2065: “num1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer52_list_firstcommonnodesinlists.cpp(40): error C2065: “num1”: 未声明的标识符
+  Myoffer4_Array_FindInPartiallySortedMatrix.cpp
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(27): error C2059: 语法错误:“while”
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(27): error C2334: “{”的前面有意外标记；跳过明显的函数体
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(38): error C2059: 语法错误:“return”
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(38): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(41): error C2628: “solution4”后面接“void”是非法的(是否忘记了“;”?)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(52): error C2065: “i”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(57): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(57): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(57): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(60): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(60): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(60): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(63): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(63): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(65): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(65): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(69): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer4_array_findinpartiallysortedmatrix.cpp(69): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Myoffer3_01_Array_Duplication.cpp
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(21): error C2059: 语法错误:“public”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(86): error C2082: 形参“numbers”的重定义
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(87): error C2082: 形参“length”的重定义
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(90): error C2065: “funclabel”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(128): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(128): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(133): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(133): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(133): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(136): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(136): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(136): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(139): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(139): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(139): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(142): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(142): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(142): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(145): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(145): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(146): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(146): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(150): error C2372: “numbers”: 重定义；不同的间接寻址类型
+  f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(129): note: 参见“numbers”的声明
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(151): error C2374: “length”: 重定义；多次初始化
+  f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(130): note: 参见“length”的声明
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(152): error C2374: “dupli”: 重定义；多次初始化
+  f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(131): note: 参见“dupli”的声明
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(153): error C2374: “result”: 重定义；多次初始化
+  f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(132): note: 参见“result”的声明
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(154): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(154): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(154): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(157): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(157): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(157): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(160): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(160): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(160): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(163): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(163): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(163): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(166): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(166): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(167): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(167): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(170): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(170): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(195): error C3861: “test1”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(197): error C3861: “test3”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(198): error C3861: “test4”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(199): error C3861: “test5”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(201): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer3_01_array_duplication.cpp(201): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Myoffer35_List_CopyComplexList.cpp
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(68): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(69): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(69): error C2227: “->label”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(69): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(69): error C2512: “RandomListNode::RandomListNode”: 没有合适的默认构造函数可用
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(70): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(70): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(70): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(71): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(71): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(71): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(74): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(77): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(78): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(79): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(79): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(79): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(80): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(80): error C2227: “->random”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(80): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(84): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(84): error C2227: “->random”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(84): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(84): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(86): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(86): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(86): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(90): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(91): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(91): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(91): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(92): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(92): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(92): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(93): error C2065: “p1”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(93): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(93): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer35_list_copycomplexlist.cpp(94): error C2065: “p1”: 未声明的标识符
+  Myoffer25_List_MergeSortedLists.cpp
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(35): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(35): error C2334: “{”的前面有意外标记；跳过明显的函数体
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(41): error C2059: 语法错误:“while”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(41): error C2334: “{”的前面有意外标记；跳过明显的函数体
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(54): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(54): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(54): error C3646: “next”: 未知重写说明符
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(54): error C2059: 语法错误:“=”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(54): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(56): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(56): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(56): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(73): error C2059: 语法错误:“return”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(74): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(74): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(81): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(81): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(100): error C3861: “Merge1”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(145): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(145): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(147): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(147): error C2365: “PushBackNode”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\list.h(15): note: 参见“PushBackNode”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(148): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(148): error C2365: “PushBackNode”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\list.h(15): note: 参见“PushBackNode”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(150): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(150): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(151): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(151): error C2365: “PrintList”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\list.h(13): note: 参见“PrintList”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(152): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(152): error C2365: “PrintList”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\list.h(13): note: 参见“PrintList”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(153): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(153): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(154): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(154): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(155): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(155): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(156): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(156): error C2365: “Test”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(99): note: 参见“Test”的声明
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(157): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(157): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(161): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(161): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(183): error C3861: “test3”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(184): error C3861: “test4”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(186): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer25_list_mergesortedlists.cpp(186): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Myoffer24_List_ReverseList.cpp
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(98): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(98): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(98): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(100): error C2059: 语法错误:“&”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(100): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(100): warning C4183: “PushBackNode”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(101): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(101): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(101): error C2535: “int Solution24::printf(void)”: 已经定义或声明成员函数
+  f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(98): note: 参见“Solution24::printf”的声明
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(101): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(102): error C2061: 语法错误: 标识符“phead”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(102): warning C4183: “PrintList”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(103): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(103): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(103): error C2535: “int Solution24::printf(void)”: 已经定义或声明成员函数
+  f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(98): note: 参见“Solution24::printf”的声明
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(103): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(104): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(104): error C2535: “int Solution24::printf(void)”: 已经定义或声明成员函数
+  f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(98): note: 参见“Solution24::printf”的声明
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(104): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(105): error C2059: 语法错误:“字符串”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(105): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(105): error C2535: “int Solution24::printf(void)”: 已经定义或声明成员函数
+  f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(98): note: 参见“Solution24::printf”的声明
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(105): warning C4183: “printf”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(106): error C2061: 语法错误: 标识符“phead”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(106): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(106): warning C4183: “Test”: 缺少返回类型；假定为返回“int”的成员函数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(109): error C2628: “Solution24”后面接“void”是非法的(是否忘记了“;”?)
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(110): error C3861: “test1”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(111): error C3861: “test2”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(112): error C3861: “test3”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(57): error C2065: “phrev”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(59): error C2065: “phrev”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(64): error C2660: “Solution24::PrintList”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(70): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(72): error C2660: “Solution24::PushBackNode”: 函数不接受 2 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(73): error C2660: “Solution24::PushBackNode”: 函数不接受 2 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(74): error C2660: “Solution24::PushBackNode”: 函数不接受 2 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(75): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(76): error C2660: “Solution24::PrintList”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(77): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(78): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(79): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(85): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(87): error C2660: “Solution24::PushBackNode”: 函数不接受 2 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(88): error C2660: “Solution24::PushBackNode”: 函数不接受 2 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(89): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(90): error C2660: “Solution24::PrintList”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(91): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(92): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(93): error C2660: “Solution24::printf”: 函数不接受 1 个参数
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(114): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(114): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(119): error C2039: “run”: 不是“Solution24”的成员
+  f:\code\swordoffer\swordoffer\myoffer24_list_reverselist.cpp(17): note: 参见“Solution24”的声明
+  Myoffer22_List_KthNodeFromEnd.cpp
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(38): error C2059: 语法错误:“return”
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(38): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(43): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(27): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(28): error C2059: 语法错误:“>”
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(28): error C2976: “std::stack”: 模板 参数太少
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\stack(18): note: 参见“std::stack”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(28): error C2133: “s”: 未知的大小
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(28): error C2512: “std::stack”: 没有合适的默认构造函数可用
+  e:\setup\visual studio\vc\tools\msvc\14.11.25503\include\stack(18): note: 参见“std::stack”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(30): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(31): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(32): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(32): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(32): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(35): warning C4018: “>”: 有符号/无符号不匹配
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(36): error C2662: “void std::stack<_Ty,_Container>::pop(void)”: 不能将“this”指针从“std::stack”转换为“std::stack<_Ty,_Container> &”
+  f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(36): note: 原因如下: 无法从“std::stack”转换为“std::stack<_Ty,_Container>”
+  f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(36): note: 转换要求第二个用户定义的转换运算符或构造函数
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(43): error C2065: “pListHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(43): error C2062: 意外的类型“unsigned int”
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(43): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(43): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(73): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(73): error C2062: 意外的类型“unsigned int”
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(73): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(73): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(84): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(85): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(86): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(87): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(89): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(93): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(93): error C3861: “Test”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(97): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(97): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(99): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(99): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(99): error C2371: “ListNode”: 重定义；不同的基类型
+  f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(43): note: 参见“ListNode”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(100): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(100): error C2365: “PushBackNode”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\list.h(15): note: 参见“PushBackNode”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(101): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(101): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(102): error C2365: “PrintList”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\list.h(13): note: 参见“PrintList”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(103): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(103): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(104): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(105): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(105): error C2365: “printf”: 重定义；以前的定义是“函数”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(943): note: 参见“printf”的声明
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(106): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(106): error C2440: “初始化”: 无法从“initializer list”转换为“int”
+  f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(106): note: 初始值设定项包含过多元素
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(107): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(107): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(110): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(110): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(126): error C3861: “test2”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(127): error C3861: “test3”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(129): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer22_list_kthnodefromend.cpp(129): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Myoffer18_02_List_DeleteDuplicatedNode.cpp
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(70): error C2059: 语法错误:“return”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(70): error C2238: 意外的标记位于“;”之前
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(77): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(27): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(28): error C2065: “pnext”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(29): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(30): error C2065: “pnext”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(30): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(30): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(30): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(31): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(31): error C2541: “delete”: 不能删除不是指针的对象
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(32): error C2065: “pnode”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(32): error C2065: “pnext”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(44): error C2065: “vhead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(44): error C2061: 语法错误: 标识符“ListNode”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(45): error C2065: “vhead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(45): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(45): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(46): error C2065: “pPre”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(46): error C2065: “vhead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(47): error C2065: “pCurrent”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(47): error C2065: “pPre”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(47): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(47): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(48): error C2065: “pCurrent”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(48): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(48): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(48): error C2227: “->val”的左边必须指向类/结构/联合/泛型类型
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(48): error C2065: “pPre”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(49): error C2065: “pCurrent”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(49): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(49): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(51): error C2065: “pCurrent”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(51): error C2065: “pPre”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(51): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(51): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(61): error C2065: “pnext”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(61): error C2065: “pCurrent”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(61): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(61): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(62): error C2065: “pPre”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(62): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(62): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(62): error C2065: “pCurrent”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(63): error C2065: “pPre”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(63): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(63): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(63): error C2065: “pnext”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(67): error C2065: “pPre”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(67): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(67): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(77): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(77): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(77): error C2448: “deleteDuplication2”: 函数样式初始值设定项类似函数定义
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(111): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(111): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(111): error C2371: “ListNode”: 重定义；不同的基类型
+  f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(77): note: 参见“ListNode”的声明
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(111): error C2065: “phead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(112): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(112): error C2365: “PrintList”: 重定义；以前的定义是“函数”
+  f:\code\swordoffer\swordoffer\list.h(13): note: 参见“PrintList”的声明
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(113): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(113): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(114): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(114): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(117): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(117): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(138): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(139): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(140): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(141): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(142): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(144): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(148): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(148): error C3861: “Test”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(154): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(155): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(156): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(157): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(158): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(159): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(161): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(165): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(165): error C3861: “Test”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(171): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(172): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(173): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(175): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(179): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(179): error C3861: “Test”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(185): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(186): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(187): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(189): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(193): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(193): error C3861: “Test”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(199): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(200): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(202): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(206): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(206): error C3861: “Test”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(210): error C3861: “test1”: 找不到标识符
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(217): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\myoffer18_02_list_deleteduplicatednode.cpp(217): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  List.cpp
+f:\code\swordoffer\swordoffer\list.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\list.cpp(17): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\list.cpp(17): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(17): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\list.cpp(19): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\list.cpp(19): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(19): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\list.cpp(22): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\list.cpp(22): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(25): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(25): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\list.cpp(50): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\code\swordoffer\swordoffer\list.cpp(50): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\code\swordoffer\swordoffer\list.cpp(50): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\list.cpp(50): error C2373: “pNew”: 重定义；不同的类型修饰符
+  f:\code\swordoffer\swordoffer\list.cpp(49): note: 参见“pNew”的声明
+f:\code\swordoffer\swordoffer\list.cpp(50): error C2146: 语法错误: 缺少“;”(在标识符“val”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(51): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\code\swordoffer\swordoffer\list.cpp(51): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\code\swordoffer\swordoffer\list.cpp(51): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\list.cpp(51): error C2373: “pNew”: 重定义；不同的类型修饰符
+  f:\code\swordoffer\swordoffer\list.cpp(49): note: 参见“pNew”的声明
+f:\code\swordoffer\swordoffer\list.cpp(51): error C2146: 语法错误: 缺少“;”(在标识符“next”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(53): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\list.cpp(53): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(53): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\list.cpp(71): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\list.cpp(71): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(71): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\list.cpp(75): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\list.cpp(75): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(75): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\list.cpp(86): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\list.cpp(86): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\list.cpp(86): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\list.cpp(90): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\list.cpp(90): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  ComplexList.cpp
+f:\code\swordoffer\swordoffer\complexlist.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\code\swordoffer\swordoffer\complexlist.cpp(16): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\complexlist.cpp(16): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\complexlist.cpp(16): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\complexlist.cpp(20): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\complexlist.cpp(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\complexlist.cpp(21): error C2059: 语法错误:“if”
+f:\code\swordoffer\swordoffer\complexlist.cpp(23): error C2059: 语法错误:“else”
+f:\code\swordoffer\swordoffer\complexlist.cpp(25): error C2065: “pHead”: 未声明的标识符
+f:\code\swordoffer\swordoffer\complexlist.cpp(25): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  f:\code\swordoffer\swordoffer\complexlist.cpp(25): note: 类型是“unknown-type”
+f:\code\swordoffer\swordoffer\complexlist.cpp(26): error C2059: 语法错误:“while”
+f:\code\swordoffer\swordoffer\complexlist.cpp(27): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+f:\code\swordoffer\swordoffer\complexlist.cpp(27): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+f:\code\swordoffer\swordoffer\complexlist.cpp(42): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+f:\code\swordoffer\swordoffer\complexlist.cpp(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\code\swordoffer\swordoffer\complexlist.cpp(42): error C2086: “int cout”: 重定义
+  f:\code\swordoffer\swordoffer\complexlist.cpp(20): note: 参见“cout”的声明
+f:\code\swordoffer\swordoffer\complexlist.cpp(43): error C2059: 语法错误:“}”
+f:\code\swordoffer\swordoffer\complexlist.cpp(43): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  正在生成代码...

@@ -1,3 +1,5 @@
+#include"stdafx.h"
+
 struct ListNode {
 	int val;
 	ListNode *next;

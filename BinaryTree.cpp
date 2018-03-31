@@ -1,4 +1,4 @@
-//#include"stdafx.h"
+#include"stdafx.h"
 #include<iostream>
 #include"BinaryTree.h"
 using namespace std;

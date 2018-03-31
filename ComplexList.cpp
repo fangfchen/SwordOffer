@@ -1,11 +1,10 @@
-//#include"stdafx.h"
+#include"stdafx.h"
 #include <iostream>
 #include "ComplexList.h"
 using namespace std;
 
 //连接pNode,pNext,pRandom
-void BuildNodes(RandomListNode* pNode, RandomListNode* pNext, RandomListNode* pRandom)
-{
+void BuildNodes(RandomListNode* pNode, RandomListNode* pNext, RandomListNode* pRandom){
 	if (pNode != nullptr)
 	{
 		pNode->next = pNext;
@@ -14,8 +13,7 @@ void BuildNodes(RandomListNode* pNode, RandomListNode* pNext, RandomListNode* pR
 }
 
 //输出链表（每个点的label(val)和ramdom(sibling)）
-void PrintList(RandomListNode* pHead)
-{
+void PrintList(RandomListNode* pHead){
 	if (pHead == nullptr) {
 		cout << "Empty List!" << endl;
 		return;

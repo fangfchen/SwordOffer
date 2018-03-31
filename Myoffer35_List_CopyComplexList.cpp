@@ -1,4 +1,4 @@
-//#include"stdafx.h"
+#include"stdafx.h"
 #include<iostream>
 #include"ComplexList.h"
 #include<map>

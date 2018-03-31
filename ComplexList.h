@@ -1,3 +1,5 @@
+#include"stdafx.h"
+
 struct RandomListNode {
 	int label;
 	struct RandomListNode *next, *random;
