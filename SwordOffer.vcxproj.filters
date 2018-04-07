@@ -95,5 +95,8 @@
     <ClCompile Include="Myoffer9_queue_QueueWithTwoStacks.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Myoffer11_Find_MinNumberInRotatedArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

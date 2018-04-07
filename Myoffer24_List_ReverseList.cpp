@@ -129,7 +129,7 @@ public:
 		test3();
 	}
 };
-int main() {
-	Solution24 s;
-	s.run();
-}
+//int main() {
+//	Solution24 s;
+//	s.run();
+//}
