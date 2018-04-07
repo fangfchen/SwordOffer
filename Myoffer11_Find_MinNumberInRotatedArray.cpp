@@ -14,13 +14,6 @@ using namespace std;
 class Solution11 {
 public:
 
-	int findmin(int a, int b) {
-		if (a <= b)
-			return a;
-		else
-			return b;
-	}
-
 	int minNumberInRotateArray(vector<int> rotateArray) {
 		if (rotateArray.size() <= 0)
 			return 0;
@@ -29,19 +22,22 @@ public:
 
 		int start = 0;
 		int end = rotateArray.size() - 1;
-		while (end - start >= 1) {
+		int ans = rotateArray[0];  //用来存答案(先令其=开头!针对排序数组未旋转的情况)
+
+		while(rotateArray[start] >= rotateArray[end]){  //若a[start] < a[end]，则a[start]就是最小值
 			if (end - start == 1) {
-				return findmin(rotateArray[start],rotateArray[end]);
+				ans = rotateArray[end];		//循环中一定a[start] >= a[end]，所以返回a[end]
+				break;
 			}
 			
-			//如果有个区间前>后，则最小值一定在这个区间中
+			//如果有个区间"左>右"，则最小值一定在这个区间中
 			int mid = (start + end) / 2;
 			if (rotateArray[start]>rotateArray[mid]) 
 				end = mid;
 			if (rotateArray[mid]>rotateArray[end])
 				start = mid;
 			
-			//若都是前<=后，则不能缩小范围，只能顺序查找
+			//若都是"左<=右"，则不能缩小范围，只能顺序查找
 			if (rotateArray[start] <= rotateArray[mid] && rotateArray[mid] <= rotateArray[end]) { 
 				int min = rotateArray[start];
 				for (int i = start+1; i <= end; i++) {
@@ -49,9 +45,11 @@ public:
 						min = rotateArray[i];
 					}
 				}
-				return min;
+				ans = min;
+				break;
 			}
 		}
+		return ans;
 	}
 
 
