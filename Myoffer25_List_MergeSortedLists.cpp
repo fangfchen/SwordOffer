@@ -2,7 +2,6 @@
 #include<iostream>
 #include"List.h"
 using namespace std;
-
 //==================================================================
 // 《剑指Offer——名企面试官精讲典型编程题》代码
 // 题目：输入两个递增排序的链表，合并这两个链表并使新链表中的结点仍然是按
@@ -16,8 +15,6 @@ ListNode(int x) :
 val(x), next(NULL) {
 }
 };*/
-
-
 class Solution25 {
 public:
 	/***--------------------------------------------------------------
@@ -49,7 +46,7 @@ public:
 		while (p1 != nullptr && p2 != nullptr) {
 			if (p1->val < p2->val) {
 				p3->next = p1;
-				p3 = p3->next;  
+				p3 = p3->next;
 				p1 = p1->next;
 			}
 			else {
@@ -66,22 +63,21 @@ public:
 			p3->next = p1;
 		}
 		//if (p1 == nullptr) {
-		//	while (p2 != nullptr) {
-		//		p3->next = p2;
-		//		p3 = p3->next;
-		//		p2 = p2->next;
-		//	}
+		//     while (p2 != nullptr) {
+		//            p3->next = p2;
+		//            p3 = p3->next;
+		//            p2 = p2->next;
+		//     }
 		//}
 		//else {
-		//	while (p1 != nullptr) {
-		//		p3->next = p1;
-		//		p3 = p3->next;
-		//		p1 = p1->next;
-		//	}
+		//     while (p1 != nullptr) {
+		//            p3->next = p1;
+		//            p3 = p3->next;
+		//            p1 = p1->next;
+		//     }
 		//}
 		return phmer;
 	}
-
 	/***--------------------------------------------------------------
 	思路2【书】：
 	用递归实现：每次都看作合并两个链表的剩余部分（参数为两个链表剩余部分的头结点），返回的为剩余部分合并后的头结点。
@@ -98,20 +94,18 @@ public:
 			phmer = pHead1;
 			phmer->next = Merge2(pHead1->next, pHead2);
 		}
-		else{
+		else {
 			phmer = pHead2;
 			phmer->next = Merge2(pHead1, pHead2->next);
 		}
 		return phmer;
 	}
-
 	//============================test===============================
 	void Test(ListNode* phead1, ListNode* phead2) {
 		ListNode* phmer = Merge1(phead1, phead2);
 		PrintList(phmer);
 		cout << endl;
 	}
-
 	//3->4->8
 	//1->2->6
 	void test1() {
@@ -130,9 +124,8 @@ public:
 		printf("Correct Answer:\n");
 		printf("1 2 3 4 6 8\n");
 		printf("My Answer:\n");
-		Test(phead1,phead2);
+		Test(phead1, phead2);
 	}
-
 	//7
 	//3
 	void test2() {
@@ -149,7 +142,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead1, phead2);
 	}
-
 	//1->3
 	//空
 	void test3() {
@@ -166,7 +158,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead1, phead2);
 	}
-
 	//1->2->3
 	//1->2->3
 	void test4() {
@@ -187,7 +178,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead1, phead2);
 	}
-
 	void run() {
 		test1();
 		test2();
@@ -195,8 +185,7 @@ public:
 		test4();
 	}
 };
-
 //int main() {
-//	Solution25 s;
-//	s.run();
+//     Solution25 s;
+//     s.run();
 //}

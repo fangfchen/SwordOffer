@@ -7,12 +7,11 @@ using namespace std;
 // 面试题18_02：删除链表中重复的结点
 // 题目：在一个排序的链表中，存在重复的结点，请删除该链表中重复的结点，重复的结点不保留，返回链表头指针。 例如，链表1->2->3->3->4->4->5 处理后为 1->2->5。
 //==================================================================
-
 // 参数:
 //         pHead:     表头
-// 返回值: 
+// 返回值:
 //         ListNode*: 处理后的表头
-/* 
+/*
 struct ListNode {
 int val;
 struct ListNode *next;
@@ -21,7 +20,6 @@ val(x), next(NULL) {
 }
 };
 */
-
 class Solution18_2 {
 public:
 	/***--------------------------------------------------------------
@@ -46,7 +44,6 @@ public:
 		}
 		delete pend;
 	}
-
 	ListNode* deleteDuplication1(ListNode* pHead)
 	{
 		if (pHead == nullptr) {
@@ -56,7 +53,7 @@ public:
 			return pHead;
 		}
 		ListNode* vhead = new ListNode();  //在head前加一个虚拟节点(注：这里需要实例化)(牛客网提交时里面要加0)
-		vhead->next = pHead;     
+		vhead->next = pHead;
 		ListNode* pPre = vhead;  //记录重复节点的前一个节点
 		ListNode* pCurrent;      //当前节点，从pPre->next开始，停在最后一个重复节点
 		while (pPre->next != nullptr) {
@@ -65,36 +62,36 @@ public:
 				pCurrent = pCurrent->next;
 			}
 			if (pCurrent != pPre->next) {  //如果移动了（其实这两种情况可以并到一起写！）
-				////移动&&在末尾：有重复，删除后面所有
-				//if (pCurrent->next == nullptr) {  
-				//	DeleteNode(pPre->next, pCurrent);
-				//	pPre->next = nullptr;
-				//}
-				//else {    
-				////移动了&&不在末尾：有重复，删除中间部分
-				//	ListNode* pnext = pCurrent->next;       //注：要提前存下来！否则pCurrent删了就没了！
-				//	DeleteNode(pPre->next, pCurrent);
-				//	pPre->next = pnext;
-				//}
-				ListNode* pnext = pCurrent->next;     
+										   ////移动&&在末尾：有重复，删除后面所有
+										   //if (pCurrent->next == nullptr) {  
+										   //     DeleteNode(pPre->next, pCurrent);
+										   //     pPre->next = nullptr;
+										   //}
+										   //else {    
+										   ////移动了&&不在末尾：有重复，删除中间部分
+										   //     ListNode* pnext = pCurrent->next;       //注：要提前存下来！否则pCurrent删了就没了！
+										   //     DeleteNode(pPre->next, pCurrent);
+										   //     pPre->next = pnext;
+										   //}
+				ListNode* pnext = pCurrent->next;
 				DeleteNode(pPre->next, pCurrent);
 				pPre->next = pnext;
 			}
-			else {                 
+			else {
 				//如果没有移动：没重复，不删，pPre后移
-					pPre = pPre->next;
-			}	 
+				pPre = pPre->next;
+			}
 		}
 		return vhead->next;
-		
+
 	}
 	/***--------------------------------------------------------------
 	思路2【书】：
 	1. 设两个指针，pPre指向重复节点的前一个节点；pNode指向当前节点，从pPre->next开始。
 	2. 先判断是否有重复(pNode的值是否等于pNode->next)：
-	   若没重复，pPre和pNode都后移；
-	   若有重复，则用while找有多少重复，且边找边删（把第一个value先取出来），直到不重复或pNode为nullptr为止。
-	   此时还需判断是否为头部重复，若是则令pHead=pNode；否则令pPre->next = pNode。
+	若没重复，pPre和pNode都后移；
+	若有重复，则用while找有多少重复，且边找边删（把第一个value先取出来），直到不重复或pNode为nullptr为止。
+	此时还需判断是否为头部重复，若是则令pHead=pNode；否则令pPre->next = pNode。
 	3. 重复第2步，直到pNode=nullptr为止。
 	【特点：先判断是否有重复，若有重复在找有多少重复，且边找边删。】
 	--------------------------------------------------------------***/
@@ -107,12 +104,12 @@ public:
 		}
 		ListNode* pPre = nullptr;
 		ListNode* pNode = pHead;
-		while (pNode!=nullptr && pNode->next!=nullptr) {
+		while (pNode != nullptr && pNode->next != nullptr) {
 			if (pNode->val != pNode->next->val) {  //若没重复
 				pPre = pNode;
 				pNode = pNode->next;
 			}
-			else{  //若有重复
+			else {  //若有重复
 				int value = pNode->val;
 				while (pNode != nullptr && pNode->val == value) {
 					ListNode* pnext = pNode->next;
@@ -129,8 +126,6 @@ public:
 		}
 		return pHead;
 	}
-
-
 	//============================test===============================
 	//需include"List.cpp"中的函数（因为List.cpp中已经定义stuct，这里不能再定义）
 	void Test(ListNode* phead) {
@@ -138,15 +133,14 @@ public:
 		PrintList(h);
 		cout << endl;
 	}
-
-	//一般情况：1->2->2->3->4->4->5 
+	//一般情况：1->2->2->3->4->4->5
 	void test1() {
 		printf("Test1:\n");
 		ListNode* pHead = nullptr; //一定要初始化为空指针！！！
 		PushBackNode(&pHead, 1);
 		PushBackNode(&pHead, 2);
 		PushBackNode(&pHead, 2);
-		PushBackNode(&pHead, 3); 
+		PushBackNode(&pHead, 3);
 		PushBackNode(&pHead, 4);
 		PushBackNode(&pHead, 4);
 		PushBackNode(&pHead, 5);
@@ -157,7 +151,6 @@ public:
 		printf("My Answer:\n");
 		Test(pHead);
 	}
-
 	//末尾有重复：1->2->2->2
 	void test2() {
 		printf("Test2:\n");
@@ -173,7 +166,6 @@ public:
 		printf("My Answer:\n");
 		Test(pHead);
 	}
-
 	//开头连续有重复：1->1->2->2->2->3
 	void test3() {
 		printf("Test3:\n");
@@ -190,7 +182,6 @@ public:
 		printf("My Answer:\n");
 		Test(pHead);
 	}
-
 	//两个节点且重复：4->4
 	void test4() {
 		printf("Test4:\n");
@@ -204,7 +195,6 @@ public:
 		printf("My Answer:\n");
 		Test(pHead);
 	}
-
 	//两个节点不重复：6->4
 	void test5() {
 		printf("Test5:\n");
@@ -218,7 +208,6 @@ public:
 		printf("My Answer:\n");
 		Test(pHead);
 	}
-
 	//单节点：1
 	void test6() {
 		printf("Test6:\n");
@@ -231,7 +220,6 @@ public:
 		printf("My Answer:\n");
 		Test(pHead);
 	}
-
 	void run() {
 		test1();
 		test2();
@@ -241,8 +229,7 @@ public:
 		test6();
 	}
 };
-
 //int main() {
-//	Solution18_2 s;
-//	s.run();
+//     Solution18_2 s;
+//     s.run();
 //}

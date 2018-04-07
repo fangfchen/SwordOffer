@@ -18,7 +18,6 @@ val(x), next(NULL) {
 }
 };
 */
-
 class Solution23 {
 public:
 	/***--------------------------------------------------------------
@@ -31,7 +30,7 @@ public:
 		if (pHead == nullptr) return nullptr;
 		set<ListNode*> setnode;
 		ListNode* pnode = pHead;
-		while (pnode != nullptr && setnode.find(pnode) == setnode.end()) {  //链表没结束，且该节点不在集合中
+		while (pnode != nullptr && setnode.find(pnode) == setnode.end()) {   //链表没结束，且该节点不在集合中
 			setnode.insert(pnode);
 			pnode = pnode->next;
 		}
@@ -53,14 +52,14 @@ public:
 		bool existloop = true;
 		ListNode* p1 = pHead;
 		ListNode* p2 = pHead->next;
-		while (p2 != p1 && p2 != nullptr && existloop==true) {
+		while (p2 != p1 && p2 != nullptr && existloop == true) {
 			p1 = p1->next;             //P2一次移两个
 			if (p2->next == nullptr) { //出现nullptr即说明无环
 				existloop = false;
 			}
 			else {
 				p2 = p2->next->next;   //P2一次移两个
-			}			
+			}
 		}
 		if (p2 == nullptr) existloop = false; //出现nullptr即说明无环
 		if (existloop == false) return nullptr;
@@ -83,7 +82,6 @@ public:
 		}
 		return p1;
 	}
-
 	//============================test===============================
 	void Test(ListNode* pHead) {
 		ListNode* pentry = EntryNodeOfLoop2(pHead);
@@ -92,7 +90,6 @@ public:
 		else
 			cout << pentry->val << endl << endl;
 	}
-
 	//1->2->3(3再->2)
 	void test1() {
 		printf("Test1:\n");
@@ -109,7 +106,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead);
 	}
-
 	//1->1（自环）
 	void test2() {
 		printf("Test2:\n");
@@ -122,7 +118,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead);
 	}
-
 	//无环
 	void test3() {
 		printf("Test3:\n");
@@ -135,15 +130,13 @@ public:
 		printf("My Answer:\n");
 		Test(phead);
 	}
-
 	void run() {
 		test1();
 		test2();
 		test3();
 	}
 };
-
 //int main() {
-//	Solution23 s;
-//	s.run();
+//     Solution23 s;
+//     s.run();
 //}

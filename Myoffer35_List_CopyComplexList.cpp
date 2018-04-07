@@ -3,19 +3,17 @@
 #include"ComplexList.h"
 #include<map>
 using namespace std;
-
 // 面试题35：复杂链表的复制
 // 题目：请实现函数ComplexListNode* Clone(ComplexListNode* pHead)，复
 // 制一个复杂链表。在复杂链表中，每个结点除了有一个m_pNext指针指向下一个
 // 结点外，还有一个m_pSibling 指向链表中的任意结点或者nullptr。
-
 /*
 struct RandomListNode {
-	int label;
-	struct RandomListNode *next, *random;
-	RandomListNode(int x) :
-	label(x), next(NULL), random(NULL) {
-	}
+int label;
+struct RandomListNode *next, *random;
+RandomListNode(int x) :
+label(x), next(NULL), random(NULL) {
+}
 };
 */
 class Solution35 {
@@ -61,7 +59,6 @@ public:
 		}
 		return phclone;
 	}
-
 	/***--------------------------------------------------------------
 	思路2【书】:时间O(n),空间O(1)
 	Step1. 按next顺序复制节点，并把复制节点都接在原节点后面。eg:A->A'->B->B'...
@@ -79,7 +76,6 @@ public:
 			RandomListNode* pnext = p1->next;
 			p1->next = p2;
 			p2->next = pnext;  //插入p2
-
 			p1 = pnext;
 		}
 		//Step2.遍历链表，A'->random = A->random->next;
@@ -104,17 +100,13 @@ public:
 		}
 		return phclone;
 	}
-
-
 	//============================test===============================
 	void Test(RandomListNode* phead) {
 		RandomListNode* phclone = Clone2(phead);
 		PrintList(phclone);
 		cout << endl;
 	}
-
 	//1(3)->2(2)->3(null)->4(1)
-
 	void test1() {
 		printf("Test1:\n");
 		RandomListNode* phead = nullptr;
@@ -123,7 +115,7 @@ public:
 		RandomListNode* p3 = new RandomListNode(3);
 		RandomListNode* p4 = new RandomListNode(4);
 		BuildNodes(p1, p2, p3);
-		BuildNodes(p2, p3, p2); 
+		BuildNodes(p2, p3, p2);
 		BuildNodes(p3, p4, nullptr);
 		BuildNodes(p4, nullptr, p1);
 		phead = p1;
@@ -132,13 +124,12 @@ public:
 		printf("My Answer:\n");
 		Test(phead);
 	}
-
 	void run() {
 		test1();
 	}
 };
 //
 //int main() {
-//	Solution35 s;
-//	s.run();
+//     Solution35 s;
+//     s.run();
 //}

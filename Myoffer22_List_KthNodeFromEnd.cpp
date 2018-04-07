@@ -18,7 +18,6 @@ ListNode(int x) :
 val(x), next(NULL) {
 }
 };*/
-
 class Solution22 {
 public:
 	/***--------------------------------------------------------------
@@ -51,30 +50,27 @@ public:
 			return nullptr;
 		ListNode* p1 = pListHead;
 		ListNode* p2 = pListHead;
-
-		for(int i=0;i<k-1;i++){
-			if(p1->next!=nullptr)    //防止k>n
+		for (int i = 0; i<k - 1; i++) {
+			if (p1->next != nullptr)    //防止k>n
 				p1 = p1->next;
 			else
 				return nullptr;
 		}
-		while(p1->next!=nullptr){
-			p1=p1->next;
-			p2=p2->next;
+		while (p1->next != nullptr) {
+			p1 = p1->next;
+			p2 = p2->next;
 		}
 		return p2;
-
-//		直接用while写：
-//		int i = 0;
-//		while (p1!=nullptr) {
-//			i++;
-//			p1 = p1->next;
-//			if (i > k) p2 = p2->next;
-//		}
-//		if (k > i) return nullptr;  //k>n
-//		return p2;
+		//            直接用while写：
+		//            int i = 0;
+		//            while (p1!=nullptr) {
+		//                   i++;
+		//                   p1 = p1->next;
+		//                   if (i > k) p2 = p2->next;
+		//            }
+		//            if (k > i) return nullptr;  //k>n
+		//            return p2;
 	}
-
 	//============================test===============================
 	void Test(ListNode* phead, unsigned int k) {
 		ListNode* pnode = FindKthToTail2(phead, k);
@@ -83,7 +79,6 @@ public:
 		else
 			cout << endl << endl;
 	}
-
 	void test1() {
 		printf("Test1:\n");
 		unsigned int k = 2;
@@ -96,11 +91,10 @@ public:
 		printf("Correct Answer:\n");
 		printf("2\n");
 		printf("My Answer:\n");
-		Test(phead,k);
+		Test(phead, k);
 	}
-
 	//单节点
-	void test2() {  
+	void test2() {
 		printf("Test2:\n");
 		unsigned int k = 1;
 		ListNode* phead = nullptr;
@@ -112,7 +106,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead, k);
 	}
-
 	//k>n
 	void test3() {
 		printf("Test3:\n");
@@ -127,16 +120,13 @@ public:
 		printf("My Answer:\n");
 		Test(phead, k);
 	}
-
 	void run() {
 		test1();
 		test2();
 		test3();
 	}
 };
-
-
 //int main() {
-//	Solution22 s;
-//	s.run();
+//     Solution22 s;
+//     s.run();
 //}

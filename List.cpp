@@ -2,9 +2,6 @@
 #include<iostream>
 #include"List.h"
 using namespace std;
-
-
-
 //创建节点
 ListNode* CreateListNode(int value) {
 	ListNode* pNode = new ListNode();
@@ -12,7 +9,6 @@ ListNode* CreateListNode(int value) {
 	pNode->next = nullptr;  //默认next为空
 	return pNode;
 }
- 
 //连接2个节点
 void ConnectListNodes(ListNode* pCurrent, ListNode* pNext) {
 	if (pCurrent == nullptr) {  //如果当前节点指针为空，则报错退出
@@ -22,7 +18,6 @@ void ConnectListNodes(ListNode* pCurrent, ListNode* pNext) {
 		pCurrent->next = pNext;
 	}
 }
-
 //打印链表
 void PrintList(ListNode* pHead) {
 	//printf("PrintList starts.\n");
@@ -34,7 +29,6 @@ void PrintList(ListNode* pHead) {
 	cout << endl;
 	//printf("PrintList ends.\n");
 }
-
 //析构链表（删除所有节点）
 void DestroyList(ListNode* pHead) {
 	ListNode* pNode = pHead;
@@ -45,7 +39,6 @@ void DestroyList(ListNode* pHead) {
 		pNode = pNext;
 	}
 }
-
 //在链表末尾添加一个节点（类似push_back(value)）
 void PushBackNode(ListNode** ppHead, int value) {
 	//新建节点
@@ -53,18 +46,17 @@ void PushBackNode(ListNode** ppHead, int value) {
 	pNew->val = value;
 	pNew->next = nullptr;
 	//判断是否为空链表(表头为空)
-	if (*ppHead == nullptr) {  
+	if (*ppHead == nullptr) {
 		*ppHead = pNew;  //若为空，表头指向新节点
 	}
 	else {
 		ListNode* pNode = *ppHead;
-		while (pNode->next != nullptr) {  
+		while (pNode->next != nullptr) {
 			pNode = pNode->next;
 		}
 		pNode->next = pNew;  //让末尾节点指向新节点
 	}
 }
-
 //在链表中找到值为value的节点并删除(类似remove(value))
 void RemoveNode(ListNode** ppHead, int value) {
 	//空链表（表头为空）
@@ -94,4 +86,3 @@ void RemoveNode(ListNode** ppHead, int value) {
 		pDeleteNode = nullptr;
 	}
 }
-

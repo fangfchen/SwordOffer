@@ -2,7 +2,6 @@
 #include<iostream>
 #include"List.h"
 using namespace std;
-
 //==================================================================
 // 《剑指Offer——名企面试官精讲典型编程题》代码
 // 面试题52：两个链表的第一个公共结点
@@ -16,7 +15,6 @@ ListNode(int x) :
 val(x), next(NULL) {
 }
 };*/
-
 /***--------------------------------------------------------------
 思路：时间O(n)，空间O(1)
 1. 先分别遍历两个链表得到各自的长度，算出长度差diff；
@@ -34,7 +32,6 @@ public:
 		}
 		return n;
 	}
-
 	ListNode* FindFirstCommonNode(ListNode* pHead1, ListNode* pHead2) {
 		if (pHead1 == nullptr || pHead2 == nullptr) return nullptr;
 		//分别计算两个链表的长度
@@ -55,23 +52,21 @@ public:
 		for (int i = 0; i < diff; i++) {
 			plong = plong->next;
 		}
-		while (plong != pshort && plong!=nullptr && pshort!=nullptr) {  //注意没公共节点的情况！
+		while (plong != pshort && plong != nullptr && pshort != nullptr) {  //注意没公共节点的情况！
 			plong = plong->next;
 			pshort = pshort->next;
 		}
 		return plong;
 	}
-
 	//============================test===============================
 	void Test(ListNode* phead1, ListNode* phead2) {
 		ListNode* pcom = FindFirstCommonNode(phead1, phead2);
 		if (pcom == nullptr)
-			cout << "null"<<endl;
+			cout << "null" << endl;
 		else
-			cout<<pcom->val<<endl;
+			cout << pcom->val << endl;
 		cout << endl;
 	}
-
 	//1->2(共)->3
 	//4->5->2(共)->3
 	void test1() {
@@ -97,7 +92,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead1, phead2);
 	}
-
 	//1(共)->2->3
 	//1(共)->2->3
 	void test2() {
@@ -117,7 +111,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead1, phead2);
 	}
-
 	//1->2->3
 	//4->5->6
 	void test3() {
@@ -138,7 +131,6 @@ public:
 		printf("My Answer:\n");
 		Test(phead1, phead2);
 	}
-
 	void run() {
 		test1();
 		test2();
@@ -147,6 +139,6 @@ public:
 };
 //
 //int main() {
-	Solution52 s;
-//	s.run();
+//Solution52 s;
+//     s.run();
 //}
